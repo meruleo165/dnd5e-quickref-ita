@@ -1,8 +1,8 @@
-name: Deploy Pages Preview (PR)
+name: Deploy Pages (prod)
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+  push:
+    branches: [main]
 
 permissions:
   contents: read
@@ -10,7 +10,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages-pr-${{ github.event.number }}
+  group: pages-prod
   cancel-in-progress: true
 
 jobs:
@@ -19,7 +19,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # No build step needed; serve repo root (index.html is in /)
+      # Ensure custom domain persists in the artifact (optional but recommended)
+      - name: Write CNAME
+        run: echo dnd.milobedzki.pl > CNAME
+
+      # If you use Jekyll and need underscores, add .nojekyll (optional)
+      # - run: touch .nojekyll
+
+      # Publish the repo root (index.html is in /)
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
@@ -31,7 +38,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          preview: true
