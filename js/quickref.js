@@ -410,3 +410,24 @@ document.addEventListener("DOMContentLoaded", function () {
     darkModeToggleItem.addEventListener('click', handleToggleClick(darkModeCheckbox));
     rules2024ToggleItem.addEventListener('click', handleToggleClick(rules2024Checkbox));
 });
+
+// === Smooth Fade + Grid Reflow ===
+function hideItem(item) {
+  if (item.classList.contains('item-hidden')) return;
+  item.classList.add('item-hiding');
+  setTimeout(() => {
+    item.classList.remove('item-hiding');
+    item.classList.add('item-hidden');
+  }, 250);
+}
+
+function showItem(item) {
+  if (!item.classList.contains('item-hidden')) return;
+  item.classList.remove('item-hidden');
+  item.classList.add('item-showing');
+  setTimeout(() => {
+    item.classList.remove('item-showing');
+  }, 250);
+}
+// Replace toggle logic:
+// if (shouldHide) hideItem(item); else showItem(item);
