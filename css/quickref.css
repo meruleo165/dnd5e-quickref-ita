@@ -95,7 +95,6 @@
     filter: grayscale(80%);
     opacity: 0.5;
     cursor: not-allowed;
-    background-color: transparent;
     background-color: inherit;
 }
 
