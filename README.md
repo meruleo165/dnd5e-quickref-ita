@@ -86,8 +86,9 @@ For personal tweaks (like adding your own class actions), edit the `js/data` fil
 <details>
 <summary>📜 <strong>Credits & Acknowledgements</strong></summary>
 
-- 🧩 Original project: [**crobi/dnd5e-quickref**](https://github.com/crobi/dnd5e-quickref)  
-- 🪄 2024 rules update source: [**nico-713/dnd5e-quickref-2024**](https://github.com/nico-713/dnd5e-quickref-2024)  
+- 🧩 Original project: [**crobi/dnd5e-quickref**](https://github.com/crobi/dnd5e-quickref) - DEPRECATED 
+- 🪄 2024 rules update source: [**nico-713/dnd5e-quickref-2024**](https://github.com/nico-713/dnd5e-quickref-2024) - Rules for 2024 were "Copied with pride" :P
+- ❤️ Source of certain improvement ideas and a great variant of this cheatsheet with different design choices. [**natsumeaoii/dnd5e-quickref**](https://github.com/natsumeaoii/dnd5e-quickref)
 - 🎨 Icons: [**game-icons.net**](http://game-icons.net/)  
 - 🐉 Favicon: [**iconduck.com/icons/21871/dragon**](https://iconduck.com/icons/21871/dragon)
 
