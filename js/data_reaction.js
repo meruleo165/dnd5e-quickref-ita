@@ -47,7 +47,7 @@ var data_reaction = [
             "Puoi usare l'azione <i>Reazione</i> per effettuare un attacco speciale di opportunità, una presa. Se riesci a effettuare più attacchi con l'azione Attacco di Opportunità, questo attacco li sostituisce tutti.",
             "Il bersaglio della tua presa non deve essere più grande di una taglia rispetto a te e deve essere alla tua portata.",
             "Usando almeno una mano libera, cerchi di afferrare il bersaglio effettuando una prova di lotta, una prova di Forza (Atletica) contesa dalla prova di Forza (Atletica) o Destrezza (Acrobazia) del bersaglio (il bersaglio sceglie la capacità da usare)."
-            "Se hai successo, sottoponi il bersaglio alla condizione di Afferrato (la sua velocità è impostata a 0)."
+            
         ]
     },    
 ]
