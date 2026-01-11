@@ -1,6 +1,7 @@
 data_action = [
     {
         title: "Attacco",
+        optional: "Standard rule",
         icon: "crossed-swords",
         subtitle: "Esegui un attacco (mischia/distanza)",
         description: "Esegui un attacco in mischia o a distanza.",
@@ -14,78 +15,78 @@ data_action = [
         ]
     },
     {
-        title: "Grapple",
+        title: "Presa",
         optional: "Standard rule",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Attacco speciale in mischia",
+        description: "Tentativo di afferrare una creatura o portarla a terra.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "Puoi usare un'azione di <i>Attacco</i> per eseguire un'azione speciale in mischia, la <i>Presa</i>. Se sei in grado di eseguire attacchi molteplici utilizzando l'azione di Attacco, la Presa ne rimpiazza uno di essi.",
+            "L'obiettivo di una Presa può essere al massimo più grande di una taglia rispetto a colui che la tenta, e deve essere a portata.",
+            "Usando almeno una mano libera, cerchi di prendere l'obiettivo facendo un check su Forza (Atletica) contestato da un check di Forza (Atletica) o uno su Destrezza (Acrobazia) (il bersaglio sceglie quello da utilizzare).",
+            "Se hai successo, poni il bersaglio nella condizione di preso e la sua velocità diventa 0."
         ]
     },
     {
-        title: "Shove",
+        title: "Spinta",
         optional: "Standard rule",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195. / DMG, page 272",
+        subtitle: "Attacco speciale in mischia",
+        description: "Spingi una creatura, facendola cadere a terra o allontanandola da te.",
+        reference: "PHB, pg. 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you.",
+            "Usando l'azione di <i>Attacco</i>, puoi fare un attacco speciale in mischia per spingere una creature. Se sei in grado di fare più attacchi usando una singola azione d'<i>Attacco</i>, questo attacco ne rimpiazza uno di essi.",
+            "L'obiettivo della <i>Spinta</i> può essere al massimo più grande di una taglia rispetto a colui che la tenta, e deve essere a portata.",
+            "Fai un check su Forza (Atletica) contestato da un check avversario su Forza(Atletica) o uno su Destrezza (Acrobazia) (il bersaglio sceglie quello da utilizzare).",
+            "Se il tuo check è superiore, o lo butti a terra o lo spingi di 1,5m."
         ]
     },
     {
-        title: "Shove Aside*",
+        title: "Spingere lateralmente*",
         optional: "Optional rule",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it aside from you",
+        subtitle: "Attacco speciale in mischia",
+        description: "Spingi una creatura, sia per buttarla a terra o per spingerla lateralmente da te.",
         reference: "PHB, pg. 195. / DMG, page 272",
         bullets: [
-            "(Optional Rule):",
-            "With this option, a creature uses the special shove attack to force a target to the side.",
-            "The attacker has disadvantage on its Strength (Athletics) check when it does so.",
-            "If that check is successful, the attacker moves the target 5 feet to a different space within its reach."
+            "(Regola opzionale):",
+            "Con questa opzione, una creatura usa l'attacco speciale di spinta per costringere un bersaglio a spostarsi di lato.",
+            "L'attaccante subisce svantaggio alla sua prova di Forza (Atletica) quando lo fa.",
+            "Se la prova ha successo, l'attaccante sposta il bersaglio di 1,5m in uno spazio diverso entro la sua portata."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lancia un Incantesimo",
         optional: "Standard rule",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
+        subtitle: "Tempo di lancio di 1 un'azione",
+        description: "Lancia un incantesimo il cui tempo di lancio è di 1 azione.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "Non puoi lanciare un incantesimo con l'<i>Azione</i> e uno diverso con l'<i>Azione Bonus</i>, eccetto se l'<i>Azione</i> è usata per lanciare un Trucchetto.",
+            "L'obiettivo dell'incantesimo deve essere entro il raggio dello stesso. Per prendere di mira qualcosa non devi avere nessun ostacolo tra te e quel qualcosa, per questo non può essere dietro <i>Copertura Totale</i>.",
+            "Gli incantesimi con componenti materiali non consumano il materiale a meno che non sia esplicitamente detto e, se non detto, puoi assumere che il costo è così basso che non va ad intaccare le scorte nella tua borsa dei componenti.",
+            "Alcuni incantesimi ti richiedono di mantenere la <i>Concentrazione</i> per poter mantenere la magia attiva. Se perdi la <i>Concentrazione</i> l'incantesimo finisce. Puoi perdere la <i>Concentrazione</i> per un incantesimo quando ne lanci un altro che richiede anch'esso <i>Concentrazione</i> o quando sei incapacitato. Ogni volta che ricevi del danno devi fare un tiro salvezza su Costituzione per mantenere la <i>Concentrazione</i>. La <i>Classe Difficoltà</i> del tiro è uguale a 10 o la metà del danno ricevuto, qualsiasi sia il numero più alto."
         ]
     },
     {
-        title: "Dash",
+        title: "Scatto",
         optional: "Standard rule",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
+        subtitle: "Raddoppia la tua velocità di mov.",
+        description: "Ottieni del movimento extra per il turno corrente.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "Raddoppia la tua velocità, dopo aver applicato i modificatori."
         ]
     },
     {
-        title: "Disengage",
+        title: "Disingaggio",
         optional: "Standard rule",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        subtitle: "Previeni gli attacchi di opportunità",
+        description: "Il tuo movimento non provoca attacchi d'opportunità per il resto del turno.",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
