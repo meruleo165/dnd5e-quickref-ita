@@ -1,53 +1,53 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Attacco di opportunità",
         optional: "Standard rule",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        subtitle: "Il nemico esce dalla tua portata",
+        description: "Raramente puoi muoverti sconsideratamente oltre i tuoi nemici senza metterti in pericolo.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Trigger: An enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Innesco: una creatura nemica che puoi vedere esce dalla tua portata.",
+            "Effettua un attacco in mischia contro la creatura che provoca.",
+            "L'attacco interrompe il movimento della creatura che provoca, e si verifica subito prima che la creatura esca dalla tua portata.",
+            "Le creature non provocano un attacco di opportunità quando si teletrasportano o quando qualcuno o qualcosa le sposta senza usare il loro movimento, azione o reazione."
         ]
     },
     {
-        title: "Readied action",
+        title: "Azione preparata",
         optional: "Standard rule",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
+        subtitle: "Parte della tua azione preparata",
+        description: "Esegui la reazione specificata dalla tua azione preparata.",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Trigger: As specified by your <i>Ready</i> action."
+            "Innesco: specificato dalla tua azione <i>Prepararsi</i>."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lancia un incantesimo",
         optional: "Standard rule",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "Tempo di lancio di 1 reazione",
+        description: "Lancia un incantesimo con un tempo di lancio di 1 reazione.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Trigger: As specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Innesco: specificato dall'incantesimo.",
+            "Per ulteriori dettagli, vedi l'azione <i>Lancia un incantesimo</i>."
         ]
     },
     {
-        title: "Grapple **",
+        title: "Presa **",
         optional: "Homebrew rule",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Attacco speciale in mischia",
+        description: "Tentativo di afferrare una creatura o portarla a terra.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Reaction</i> action to make a special opportunity attack, a grapple. If you're able to make multiple attacks with the Opportunity Attack action, this attack replaces all of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "Puoi usare l'azione <i>Reazione</i> per effettuare un attacco speciale di opportunità, una presa. Se riesci a effettuare più attacchi con l'azione Attacco di Opportunità, questo attacco li sostituisce tutti.",
+            "Il bersaglio della tua presa non deve essere più grande di una taglia rispetto a te e deve essere alla tua portata.",
+            "Usando almeno una mano libera, cerchi di afferrare il bersaglio effettuando una prova di lotta, una prova di Forza (Atletica) contesa dalla prova di Forza (Atletica) o Destrezza (Acrobazia) del bersaglio (il bersaglio sceglie la capacità da usare)."
+            "Se hai successo, sottoponi il bersaglio alla condizione di Afferrato (la sua velocità è impostata a 0)."
         ]
     },    
 ]
