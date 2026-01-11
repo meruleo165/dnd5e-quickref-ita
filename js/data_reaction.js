@@ -2,7 +2,7 @@ data_reaction = [
     {
         title: "Attacco di opportunità",
         optional: "Standard rule",
-        icon: "crossed-swords",
+
         subtitle: "Il nemico esce dalla tua portata",
         description: "Raramente puoi muoverti sconsideratamente oltre i tuoi nemici senza metterti in pericolo.",
         reference: "PHB, pg. 195.",
