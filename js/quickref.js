@@ -1,38 +1,3 @@
-// Dynamically load the correct data files (2024 or standard) based on localStorage setting
-(function() {
-    var rules2024 = localStorage.getItem('rules2024') === 'true';
-    var head = document.getElementsByTagName('head')[0];
-
-    // Helper to inject a script tag for a data file
-    function loadScript(src) {
-        var script = document.createElement('script');
-        script.src = src;
-        script.defer = false;
-        head.appendChild(script);
-    }
-
-    // Load either the 2024 or standard data file for a given base name
-    function loadRuleFile(base) {
-        if (rules2024) {
-            loadScript('js/2024_' + base + '.js');
-        } else {
-            loadScript('js/' + base + '.js');
-        }
-    }
-
-    // List of all rule data files to load
-    var ruleFiles = [
-        'data_movement',
-        'data_action',
-        'data_bonusaction',
-        'data_reaction',
-        'data_condition',
-        'data_environment',
-    ];
-
-    ruleFiles.forEach(loadRuleFile);
-})();
-
 // Create and append a quick reference item to a section
 // Sets up modal open logic for the item
 function add_quickref_item(parent, data, type) {
