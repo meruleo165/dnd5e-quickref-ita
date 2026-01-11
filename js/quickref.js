@@ -1,7 +1,15 @@
 // Create and append a quick reference item to a section
 // Sets up modal open logic for the item
 function add_quickref_item(parent, data, type) {
-    var icon = data.icon || "perspective-dice-six-faces-one";
+    function normalizeIcon(icon) {
+    if (!icon) return "action";
+    return icon
+        .toLowerCase()
+        .replace(/_/g, "-")
+        .replace("bonusaction", "bonus-action");
+}
+
+var icon = normalizeIcon(data.icon);
     var subtitle = data.subtitle || "";
     var title = data.title || "[no title]";
     var optional = data.optional || "Standard rule";
@@ -135,28 +143,7 @@ function init() {
 }
 
 // Wait for all data scripts to be loaded before initializing and filtering
-window.onload = function() {
-    function waitForDataAndInit() {
-        // Check if all required data variables are defined
-        if (
-            typeof data_movement !== 'undefined' &&
-            typeof data_action !== 'undefined' &&
-            typeof data_bonusaction !== 'undefined' &&
-            typeof data_reaction !== 'undefined' &&
-            typeof data_condition !== 'undefined' &&
-            typeof data_environment_obscurance !== 'undefined' &&
-            typeof data_environment_light !== 'undefined' &&
-            typeof data_environment_vision !== 'undefined' &&
-            typeof data_environment_cover !== 'undefined'
-        ) {
-            init();
-        } else {
-            // Try again in 50ms
-            setTimeout(waitForDataAndInit, 50);
-        }
-    }
-    waitForDataAndInit();
-}
+window.onload = init;
 
 // Handle section collapse/expand
 function initCollapsibleSections() {
@@ -276,33 +263,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var optionalCheckbox = document.getElementById('optional-switch');
     var homebrewCheckbox = document.getElementById('homebrew-switch');
     var darkModeCheckbox = document.getElementById('darkmode-switch');
-    var rules2024Checkbox = document.getElementById('rules2024-switch');
-
-    // Set initial toggle state from localStorage
-    var rules2024 = localStorage.getItem('rules2024') === 'true';
-    rules2024Checkbox.checked = rules2024;
-
-    // Update the label on load to indicate which ruleset the toggle will switch to
-    function updateRulesToggleLabel() {
-        var labelItem = document.getElementById('2024rules-toggle-item');
-        if (!labelItem) return;
-        var titleEl = labelItem.querySelector('.item-title');
-        var descEl = labelItem.querySelector('.item-desc');
-
-        var activeLabel = document.getElementById('active-ruleset-label');
-
-        if (rules2024Checkbox.checked) {
-            if (titleEl) titleEl.textContent = 'Switch to 2014 Rules';
-            if (descEl) descEl.textContent = 'Switches to the D&D 2014 (legacy) ruleset.';
-            if (activeLabel) activeLabel.textContent = 'Current Ruleset: D&D 2024';
-        } else {
-            if (titleEl) titleEl.textContent = 'Switch to 2024 Rules';
-            if (descEl) descEl.textContent = 'Switches to the D&D 2024 ruleset.';
-            if (activeLabel) activeLabel.textContent = 'Current Ruleset: D&D 2014 (legacy)';
-        }
-    }
-    updateRulesToggleLabel();
-
+    
     var darkmode = localStorage.getItem('darkmode') === 'true';
     darkModeCheckbox.checked = darkmode;
 
@@ -375,10 +336,7 @@ document.addEventListener("DOMContentLoaded", function () {
         handleDarkModeToggle();
     });
     // When the rules toggle changes, update the label immediately then perform the switch (which reloads)
-    rules2024Checkbox.addEventListener('change', function() {
-        updateRulesToggleLabel();
-        handle2024RulesToggle();
-    });
+
 
     // Toggle dark mode classes on the page
     function handleDarkModeToggle() {
@@ -393,22 +351,11 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem('darkmode', darkModeCheckbox.checked ? 'true' : 'false');
     }
 
-    // Handle switching between 2024 and standard rules
-    function handle2024RulesToggle() {
-        localStorage.setItem('rules2024', rules2024Checkbox.checked ? 'true' : 'false');
-        // Fade out the body, then reload the page
-        document.body.classList.remove('fade-in');
-        document.body.classList.add('fade-out');
-        setTimeout(() => {
-            location.reload();
-        }, 650); // This should match the transition duration in quickref.css
-    }
 
     // Set up click handlers for the settings toggle items (for better UX)
     var optionalToggleItem = document.getElementById('optional-toggle-item');
     var homebrewToggleItem = document.getElementById('homebrew-toggle-item');
     var darkModeToggleItem = document.getElementById('darkmode-toggle-item');
-    var rules2024ToggleItem = document.getElementById('2024rules-toggle-item');
 
     function handleToggleClick(checkbox) {
         return function() {
@@ -420,7 +367,6 @@ document.addEventListener("DOMContentLoaded", function () {
     optionalToggleItem.addEventListener('click', handleToggleClick(optionalCheckbox));
     homebrewToggleItem.addEventListener('click', handleToggleClick(homebrewCheckbox));
     darkModeToggleItem.addEventListener('click', handleToggleClick(darkModeCheckbox));
-    rules2024ToggleItem.addEventListener('click', handleToggleClick(rules2024Checkbox));
 });
 
 // === Smooth Fade + Grid Reflow ===
