@@ -12,12 +12,12 @@
 
 /* === Icon type classes === */
 /* Qui si impostano le immagini/icone per ciascun tipo */
-.icon-action { background-image: url('../images/icons/action.png'); }
-.icon-move { background-image: url('../images/icons/move.png'); }
-.icon-bonus-action { background-image: url('../images/icons/bonus-action.png'); }
-.icon-reaction { background-image: url('../images/icons/reaction.png'); }
-.icon-condition { background-image: url('../images/icons/condition.png'); }
-.icon-environment { background-image: url('../images/icons/environment.png'); }
+.icon-action { background-image: url('../img/icons/action.png'); }
+.icon-move { background-image: url('../img/icons/move.png'); }
+.icon-bonus-action { background-image: url('../img/icons/bonus-action.png'); }
+.icon-reaction { background-image: url('../img/icons/reaction.png'); }
+.icon-condition { background-image: url('../img/icons/condition.png'); }
+.icon-environment { background-image: url('../img/icons/environment.png'); }
 
 /* === Flex container for items === */
 .item-header {
@@ -35,11 +35,7 @@
 }
 
 /* === Desktop adjustments === */
-@media (min-width: 769px) {
-    .item-icon {
-        /* Nessuna regola che nasconda le icone! */
-    }
-}
+
 
 /* === Optional: hover effect for icons === */
 .item-icon:hover {
