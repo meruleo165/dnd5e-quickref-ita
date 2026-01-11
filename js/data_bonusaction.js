@@ -64,7 +64,7 @@ data_bonusaction = [
         ]
     },
     {
-        title: "Bevi una pozione**",
+        title: "Bevi una pozione **",
         optional: "Homebrew rule",
         icon: "potion-ball",
         subtitle: "Tira per l'effetto",
