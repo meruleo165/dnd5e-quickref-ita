@@ -1,4 +1,4 @@
-data_environment_obscurance = [
+var data_environment_obscurance = [
     {
         title: "Lightly obscured",
         optional: "Standard rule",
@@ -23,7 +23,7 @@ data_environment_obscurance = [
     }
 ]
 
-data_environment_light = [
+var data_environment_light = [
     {
         title: "Bright light",
         optional: "Standard rule",
@@ -62,7 +62,7 @@ data_environment_light = [
     }
 ]
 
-data_environment_vision = [
+var data_environment_vision = [
     {
         title: "Blindsight",
         optional: "Standard rule",
@@ -101,7 +101,7 @@ data_environment_vision = [
     }
 ]
 
-data_environment_cover = [
+var data_environment_cover = [
     {
         title: "Half cover",
         optional: "Standard rule",
