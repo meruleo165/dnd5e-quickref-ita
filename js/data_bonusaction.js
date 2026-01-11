@@ -1,78 +1,78 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Attacco con l'altra mano",
         optional: "Standard rule",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Usa con l'azione di Attacco",
+        description: "Attacco con la tua mano non dominante.",
+        reference: "PHB, pgs. 192,194-195 (Combattere con Due mani).",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Utilizzabile solo se se esegui l'azione di <i>Attacco</i> e usi per essa un'arma ravvicinata <i>leggera</i> che tieni in una mano.",
+            "Fai un singolo attacco con un'arma <i>leggera</i> che tieni nell'altra mano.",
+            "Non aggiungi il modificatore della relativa abilità al danno dell'attacco bonus, a meno che esso non sia negativo.",
+            "Se una delle due armi che usi per attaccare può essere lanciata, allora lo puoi fare invece di attaccare da vicino."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lancia un incantesimo",
         optional: "Standard rule",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        subtitle: "Tempo di lancio di 1 azione bonus",
+        description: "Lancia un incantesimo con tempo di lancio di 1 azione bonus.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with your action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Non puoi lanciare un incantesimo con la tua <i>azione</i> ed uno differente con la tua <i>azione bonus</i>, a meno che quello lanciato nella tua <i>azione</i> non fosse un Trucchetto.",
+            "Per maggiori dettaglio vedi l'azione <i>Lancia un incantesimo</i>.",
         ]
     },
     {
-        title: "Use class feature",
+        title: "Usa un tratto, talento o privilegio",
         optional: "Standard rule",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Certi attributi usano un'azione bonus",
+        description: "Usa una caratteristica della classe o della razza che usa un'azione bonus per essere eseguita.",
+        reference: "Vedi le pagine relative alla classe/razza per più informazioni.",
         bullets: [
 
         ]
     },
     {
-        title: "Overrun*",
+        title: "Oltrepassare*",
         optional: "Optional rule",
         icon: "shield-bash",
-        subtitle: "Run through a hostile space",
-        description: "When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature.",
-        reference: "DMG, page 272",
+        subtitle: "Attraversare uno spazio ostile",
+        description: "Quando una creatura cerca di muoversi attraverso lo spazio di una creatura ostile, chi muove può tentare di farsi strada travolgendo la creatura ostile.",
+        reference: "DMG, page 271",
         bullets: [
-            "(Optional Rule):",
-            "As a bonus action, the mover makes a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check.",
-            "The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller.",
-            "If the mover wins the contest, it can move through the hostile creature's space once this turn."
+            "(Regola Opzionale):",
+            "Come azione bonus, chi muove effettua una prova di Forza (Atletica) contesa dalla prova di Forza (Atletica) della creatura ostile.",
+            "La creatura che tenta di travolgere ha vantaggio a questa prova se è più grande della creatura ostile, o svantaggio se è più piccola.",
+            "Se chi muove vince la contesa, può muoversi attraverso lo spazio della creatura ostile una volta in questo turno."
         ]
     },
     {
-        title: "Tumble*",
+        title: "Rotolare*",
         optional: "Optional rule",
         icon: "tumble",
-        subtitle: "Tumble through a hostile space",
-        description: "A creature can try to tumble through a hostile creature's space, ducking and weaving past the opponent.",
+        subtitle: "Rotolare attraverso uno spazio ostile",
+        description: "Una creatura può tentare di rotolare attraverso lo spazio di una creatura ostile, chinandosi e zigzagando oltre l'avversario.",
         reference: "DMG, page 272",
         bullets: [
-            "(Optional Rule):",
-            "As a bonus action, the tumbler makes a Dexterity (Acrobatics) check contested by the hostile creature's Dexterity (Acrobatics) check.",
-            "If the tumbler wins the contest, it can move through the hostile creature's space once this turn."
+            "(Regola Opzionale):",
+            "Come azione bonus, la creatura che rotola effettua una prova di Destrezza (Acrobazia) contesa dalla prova di Destrezza (Acrobazia) della creatura ostile.",
+            "Se la creatura che rotola vince la contesa, può muoversi attraverso lo spazio della creatura ostile una volta in questo turno."
         ]
     },
     {
-        title: "Drink a potion **",
+        title: "Bevi una pozione**",
         optional: "Homebrew rule",
         icon: "potion-ball",
-        subtitle: "Roll for the effect",
-        description: "Roll the dice as per the description of the potion",
+        subtitle: "Tira per l'effetto",
+        description: "Tira i dadi come da descrizione della pozione.",
         bullets: [
-            "(Optional Rule):",
-            "Normally Drinking potion counts as an <i>Action</i> and will heal by maximum amount.",
-            "When using it as <i>Bonus action</i>, roll the dice as per the description of the potion."
+            "(Regola Homebrew):",
+            "Normalmente, bere una pozione conta come un'<i>azione</i> e cura al massimo.",
+            "Quando la usi come <i>azione bonus</i>, tira i dadi come da descrizione della pozione."
         ],
     },
 ]
