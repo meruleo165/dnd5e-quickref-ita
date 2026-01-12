@@ -143,28 +143,8 @@ function init() {
 }
 
 // Wait for all data scripts to be loaded before initializing and filtering
-window.onload = function() {
-    function waitForDataAndInit() {
-        // Check if all required data variables are defined
-        if (
-            typeof data_movement !== 'undefined' &&
-            typeof data_action !== 'undefined' &&
-            typeof data_bonusaction !== 'undefined' &&
-            typeof data_reaction !== 'undefined' &&
-            typeof data_condition !== 'undefined' &&
-            typeof data_environment_obscurance !== 'undefined' &&
-            typeof data_environment_light !== 'undefined' &&
-            typeof data_environment_vision !== 'undefined' &&
-            typeof data_environment_cover !== 'undefined'
-        ) {
-            init();
-        } else {
-            // Try again in 50ms
-            setTimeout(waitForDataAndInit, 50);
-        }
-    }
-    waitForDataAndInit();
-}
+window.onload = init;
+
 // Handle section collapse/expand
 function initCollapsibleSections() {
     const sections = document.querySelectorAll('.section-container');
