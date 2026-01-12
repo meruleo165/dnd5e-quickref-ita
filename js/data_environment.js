@@ -185,13 +185,59 @@ data_environment_hazard = [
         ]
     },
     {
-        title: "Freddo estremo",
-        optional: "Standard rule",
-        icon: "shield",
-        subtitle: "Combattere in acqua",
+        title: "Freddo estremo*",
+        optional: "Optional rule",
+        icon: "thermometer-cold",
+        subtitle: "Rischio di Indebolimento",
+        description: "Quando esposta a freddo estremo, una creatura può subire livelli di Indebolimento.",
+        reference: "DMG, pg. 110.",
+        bullets: [
+            "(Regola Opzionale):",
+            "L'esposizione prolungata a temperature pari o inferiori a -17 °C deve effettuare tiri salvezza su Costituzione per resistere all'accumulo di livelli di Indebolimento.",
+            "Quando esposta a freddo estremo, una creatura deve superare un tiro salvezza su Costituzione con CD 10 alla fine di ogni ora o subire un livello di Indebolimento.",
+            "Le creature con resistenza o immunità ai danni da freddo superano automaticamente il tiro salvezza, così come quelle che indossano un equipaggiamento adatto al freddo o quelle naturalmente adattate ai climi freddi."
+        ]
+    },
+    {
+        title: "Caldo estremo*",
+        optional: "Optional rule",
+        icon: "sun",
+        subtitle: "Rischio di Indebolimento",
+        description: "Quando esposta a caldo estremo, una creatura può subire livelli di Indebolimento.",
+        reference: "DMG, pg. 110.",
+        bullets: [
+            "(Regola Opzionale):",
+            "L'esposizione prolungata a temperature pari o superiori a 37 °C deve effettuare tiri salvezza su Costituzione per resistere all'accumulo di livelli di Indebolimento.",
+            "Quando esposta a calore estremo, una creatura deve effettuare un tiro salvezza su Costituzione alla fine di ogni ora o subire un livello di Indebolimento.",
+            "La CD è 5 per la prima ora e aumenta di 1 per ogni ora aggiuntiva.",
+            "Le creature che indossano armature medie, armature pesanti o abiti pesanti subiscono svantaggio al tiro salvezza.",
+            "Le creature con resistenza o immunità ai danni da fuoco superano automaticamente il tiro salvezza, così come quelle naturalmente adattate ai climi caldi."
+        ]
+    },
+    {
+        title: "Vento forte*",
+        optional: "Optional rule",
+        icon: "wind-sock",
+        subtitle: "Influenza attacchi e percezione",
+        description: "L'esposizione al vento forte impone penalità agli attacchi con armi a distanza e alle prove di Percezione.",
+        reference: "DMG, pg. 110.",
+        bullets: [
+            "(Regola Opzionale):",
+            "Il vento forte impone svantaggio agli attacchi con armi a distanza e alle prove di Saggezza (Percezione) basate sull'udito.",
+            "Il vento forte estingue le fiamme scoperte, disperde la nebbia e rende quasi impossibile volare, se non tramite mezzi magici.",
+            "Una creatura volante colta da un vento forte deve atterrare alla fine del suo turno o cadere.",
+            "Un vento forte in un deserto può generare una tempesta di sabbia che impone svantaggio alle prove di Saggezza (Percezione) basate sulla vista."
+        ]
+    },
+    {
+        title: "Alta quota*",
+        optional: "Optional rule",
+        icon: "mountain-climbing",
+        subtitle: "Rischio di Indebolimento",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
         reference: "PHB, pg. 198.",
         bullets: [
+            "(Regola Opzionale):",
             "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
             "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
             "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
@@ -199,13 +245,14 @@ data_environment_hazard = [
         ]
     },
     {
-        title: "Caldo estremo",
-        optional: "Standard rule",
-        icon: "shield",
+        title: "Precipitazioni abbondanti*",
+        optional: "Optional rule",
+        icon: "raining",
         subtitle: "Combattere in acqua",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
         reference: "PHB, pg. 198.",
         bullets: [
+            "(Regola Opzionale):",
             "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
             "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
             "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
@@ -213,13 +260,14 @@ data_environment_hazard = [
         ]
     },
     {
-        title: "Vento forte",
-        optional: "Standard rule",
-        icon: "shield",
+        title: "Fiancheggiamento*",
+        optional: "Optional rule",
+        icon: "confrontation",
         subtitle: "Combattere in acqua",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
         reference: "PHB, pg. 198.",
         bullets: [
+            "(Regola Opzionale):",
             "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
             "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
             "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
@@ -227,13 +275,14 @@ data_environment_hazard = [
         ]
     },
     {
-        title: "Alta quota",
-        optional: "Standard rule",
-        icon: "shield",
+        title: "Lesioni persistenti*",
+        optional: "Optional rule",
+        icon: "sword-break",
         subtitle: "Combattere in acqua",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
         reference: "PHB, pg. 198.",
         bullets: [
+            "(Regola Opzionale):",
             "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
             "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
             "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
@@ -241,13 +290,14 @@ data_environment_hazard = [
         ]
     },
     {
-        title: "Fiancheggiamento",
-        optional: "Standard rule",
-        icon: "shield",
+        title: "Danni massicci*",
+        optional: "Optional rule",
+        icon: "internal-injury",
         subtitle: "Combattere in acqua",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
         reference: "PHB, pg. 198.",
         bullets: [
+            "(Regola Opzionale):",
             "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
             "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
             "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
@@ -255,13 +305,14 @@ data_environment_hazard = [
         ]
     },
     {
-        title: "Lesioni persistenti",
-        optional: "Standard rule",
-        icon: "shield",
+        title: "Morale*",
+        optional: "Optional rule",
+        icon: "terror",
         subtitle: "Combattere in acqua",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
         reference: "PHB, pg. 198.",
         bullets: [
+            "(Regola Opzionale):",
             "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
             "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
             "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
@@ -269,13 +320,14 @@ data_environment_hazard = [
         ]
     },
     {
-        title: "Danni massicci",
-        optional: "Standard rule",
-        icon: "shield",
+        title: "Varianti al riposo*",
+        optional: "Optional rule",
+        icon: "night-sleep",
         subtitle: "Combattere in acqua",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
         reference: "PHB, pg. 198.",
         bullets: [
+            "(Regola Opzionale):",
             "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
             "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
             "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
@@ -283,55 +335,14 @@ data_environment_hazard = [
         ]
     },
     {
-        title: "Morale",
-        optional: "Standard rule",
-        icon: "shield",
+        title: "Trappole*",
+        optional: "Optional rule",
+        icon: "trip-wire",
         subtitle: "Combattere in acqua",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
         reference: "PHB, pg. 198.",
         bullets: [
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
-        ]
-    },
-    {
-        title: "Varianti al riposo",
-        optional: "Standard rule",
-        icon: "shield",
-        subtitle: "Combattere in acqua",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
-        bullets: [
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
-        ]
-    },
-    {
-        title: "Pavimento scivoloso",
-        optional: "Standard rule",
-        icon: "shield",
-        subtitle: "Combattere in acqua",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
-        bullets: [
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
-        ]
-    },
-    {
-        title: "Trappole",
-        optional: "Standard rule",
-        icon: "shield",
-        subtitle: "Combattere in acqua",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
-        bullets: [
+            "(Regola Opzionale):",
             "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
             "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
             "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
