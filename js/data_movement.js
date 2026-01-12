@@ -58,10 +58,12 @@ data_movement = [
     {
         title: "Rialzarsi",
         icon: "strong",
-        subtitle: "Costo: metà della velocità di movimento",
+        subtitle: "Costo: metà della tua velocità",
         description: "Costo di movimento: metà della tua velocità",
         reference: "PHB, pg. 190-191.",
         bullets: [
+            "Mentre sei prono, puoi rialzarti usando un costo in movimento pari a metà della velocità del tuo personaggio.",
+            "Questo costo viene dedotto dal movimento disponibile per il turno.",
             "Non puoi alzarti se non hai abbastanza movimento rimanente o se la tua velocità è 0."
         ]
     },
@@ -139,7 +141,7 @@ data_movement = [
     {
         title: "Monta/Smonta dalla sella",
         icon: "grab",
-        subtitle: "Costo: metà della velocità di movimento",
+        subtitle: "Costo: metà della tua velocità",
         description: "Montare o smontare da una creatura entro 1,5m da te.",
         reference: "PHB, pg. 198.",
         bullets: [
