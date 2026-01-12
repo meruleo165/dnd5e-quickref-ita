@@ -149,8 +149,10 @@ data_action = [
         reference: "DMG, pg. 140.",
         bullets: [
             "(Regola Opzionale):",
+            "Utilizzare un'azione completa su sé stessi ripristina la quantità massima possibile di punti ferita dati dalla pozione."
             "Per somministrare una pozione devi trovarti entro 1,5m dalla creatura bersaglio.",
-            "Questa azione viene spesso utilizzata per riportare in vita un alleato morente (0 PV) e farlo entrare in combattimento."
+            "Questa azione viene spesso utilizzata per riportare in vita un alleato morente (0 PV) e farlo entrare in combattimento.",
+            
         ]
     },
     {
