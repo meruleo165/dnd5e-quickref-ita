@@ -78,7 +78,7 @@ data_bonusaction = [
     {
         title: "Valutazione rapida**",
         optional: "Homebrew rule",
-        icon: "potion-ball",
+        icon: "eyeball",
         subtitle: "Valuta le condizioni di un nemico",
         description: "Effettua una prova di abilità con un'azione bonus per apprendere informazioni tattiche su un nemico.",
         bullets: [
