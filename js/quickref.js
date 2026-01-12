@@ -1,15 +1,7 @@
 // Create and append a quick reference item to a section
 // Sets up modal open logic for the item
 function add_quickref_item(parent, data, type) {
-    function normalizeIcon(icon) {
-    if (!icon) return "action";
-    return icon
-        .toLowerCase()
-        .replace(/_/g, "-")
-        .replace("bonusaction", "bonus-action");
-}
-
-    var icon = normalizeIcon(data.icon);
+    var icon = data.icon || "perspective-dice-six-faces-one";
     var subtitle = data.subtitle || "";
     var title = data.title || "[no title]";
     var optional = data.optional || "Standard rule";
