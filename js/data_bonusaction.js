@@ -64,7 +64,7 @@ data_bonusaction = [
         ]
     },
     {
-        title: "Bevi una pozione **",
+        title: "Bevi una pozione**",
         optional: "Homebrew rule",
         icon: "potion-ball",
         subtitle: "Tira per l'effetto",
@@ -73,6 +73,19 @@ data_bonusaction = [
             "(Regola Homebrew):",
             "Normalmente, bere una pozione conta come un'<i>azione</i> e cura al massimo.",
             "Quando la usi come <i>azione bonus</i>, tira i dadi come da descrizione della pozione."
+        ],
+    },
+    {
+        title: "Valutazione rapida**",
+        optional: "Homebrew rule",
+        icon: "potion-ball",
+        subtitle: "Valuta le condizioni di un nemico",
+        description: "Effettua una prova di abilità con un'azione bonus per apprendere informazioni tattiche su un nemico.",
+        bullets: [
+            "(Regola Homebrew):",
+            "Come azione bonus, scegli una creatura che puoi vedere. Effettua una prova di Saggezza (Intuizione) o Intelligenza (Indagare) contro una CD stabilita dal DM (spesso 10 + il GS della creatura).",
+            "In caso di successo, il DM ti fornisce un'informazione tattica utile, come le sue vulnerabilità ai danni, resistenze, immunità o se è superiore o inferiore alla metà dei suoi punti ferita massimi."
+            "Questo è particolarmente utile per i personaggi con statistiche mentali elevate che desiderano contribuire tatticamente oltre il loro ruolo principale in combattimento."
         ],
     },
 ]
