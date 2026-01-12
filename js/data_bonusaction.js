@@ -84,7 +84,7 @@ data_bonusaction = [
         bullets: [
             "(Regola Homebrew):",
             "Come azione bonus, scegli una creatura che puoi vedere. Effettua una prova di Saggezza (Intuizione) o Intelligenza (Indagare) contro una CD stabilita dal DM (spesso 10 + il GS della creatura).",
-            "In caso di successo, il DM ti fornisce un'informazione tattica utile, come le sue vulnerabilità ai danni, resistenze, immunità o se è superiore o inferiore alla metà dei suoi punti ferita massimi."
+            "In caso di successo, il DM ti fornisce un'informazione tattica utile, come le sue vulnerabilità ai danni, resistenze, immunità o se è superiore o inferiore alla metà dei suoi punti ferita massimi.",
             "Questo è particolarmente utile per i personaggi con statistiche mentali elevate che desiderano contribuire tatticamente oltre il loro ruolo principale in combattimento."
         ],
     },
