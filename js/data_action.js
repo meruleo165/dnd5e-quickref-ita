@@ -307,7 +307,7 @@ data_action = [
         title: "Marcare*",
         optional: "Optional rule",
         icon: "cross-mark",
-        subtitle: "Vantaggio sugli attacchi di opportunità",
+        subtitle: "Vantaggio su attacchi d'opportunità",
         description: "Questa opzione rende più facile per i combattenti in mischia infastidirsi a vicenda con attacchi di opportunità.",
         reference: "DMG, page 271.",
         bullets: [
