@@ -9,7 +9,7 @@ function add_quickref_item(parent, data, type) {
         .replace("bonusaction", "bonus-action");
 }
 
-var icon = normalizeIcon(data.icon);
+    var icon = normalizeIcon(data.icon);
     var subtitle = data.subtitle || "";
     var title = data.title || "[no title]";
     var optional = data.optional || "Standard rule";
