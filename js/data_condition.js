@@ -170,7 +170,7 @@ data_condition = [
     {
         title: "Stordito",
         optional: "Standard rule",
-        icon: "internal-injury",
+        icon: "knocked-out-stars",
         subtitle: "Sei stordito",
         description: "Sei stordito.",
         reference: "PHB, pg. 292.",
@@ -198,7 +198,7 @@ data_condition = [
 	 {
         title: "Follia*",
         optional: "Optional rule",
-        icon: "coma",
+        icon: "architect-mask",
         subtitle: "La tua mente è danneggiata",
         description: "Ricevi un trauma mentale con effetti psicologici a breve, lungo termine e indefiniti.",
         reference: "DMG, pgs. 258-260.",
@@ -213,7 +213,7 @@ data_condition = [
 	{
         title: "Sanguinamento**",
         optional: "Homebrew rule",
-        icon: "coma",
+        icon: "bleeding-eye",
         subtitle: "Subisci danni nel tempo",
         description: "Subisci danni persistenti ad ogni turno fino a che la ferita non viene trattata.",
         reference: "",
