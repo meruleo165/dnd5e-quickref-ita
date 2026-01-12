@@ -35,7 +35,7 @@ data_movement = [
     },
     {
         title: "Cadere prono",
-        icon: "falling",
+        icon: "lob-arrow",
         subtitle: "Costo: 0m",
         description: "Costo di movimento: 0 piedi (gratuito)",
         reference: "PHB, pgs. 190-191,292.",
@@ -125,7 +125,7 @@ data_movement = [
     },
     {
         title: "Stringersi",
-        icon: "grab",
+        icon: "resize",
         subtitle: "Muoversi in uno spazio stretto",
         description: "Stringersi in uno spazio più piccolo.",
         reference: "PHB, pg. 192.",
@@ -140,7 +140,7 @@ data_movement = [
     },
     {
         title: "Monta/Smonta dalla sella",
-        icon: "grab",
+        icon: "horse-head",
         subtitle: "Costo: metà della tua velocità",
         description: "Montare o smontare da una creatura entro 1,5m da te.",
         reference: "PHB, pg. 198.",
