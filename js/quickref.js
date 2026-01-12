@@ -124,10 +124,6 @@ function init() {
     fill_section(data_environment_vision, "environment-vision", "Environment");
     fill_section(data_environment_cover, "environment-cover", "Environment");
 
-    // Apply initial filtering after items are created
-    if (typeof window.handleRulesToggle === 'function') {
-        window.handleRulesToggle();
-    }
     // Set initial state for all "Collapse all" buttons
     document.querySelectorAll('.section-container').forEach(section => {
         updateCollapseAllButtonState(section);
@@ -135,7 +131,28 @@ function init() {
 }
 
 // Wait for all data scripts to be loaded before initializing and filtering
-window.onload = init;
+window.onload = function() {
+    function waitForDataAndInit() {
+        // Check if all required data variables are defined
+        if (
+            typeof data_movement !== 'undefined' &&
+            typeof data_action !== 'undefined' &&
+            typeof data_bonusaction !== 'undefined' &&
+            typeof data_reaction !== 'undefined' &&
+            typeof data_condition !== 'undefined' &&
+            typeof data_environment_obscurance !== 'undefined' &&
+            typeof data_environment_light !== 'undefined' &&
+            typeof data_environment_vision !== 'undefined' &&
+            typeof data_environment_cover !== 'undefined'
+        ) {
+            init();
+        } else {
+            // Try again in 50ms
+            setTimeout(waitForDataAndInit, 50);
+        }
+    }
+    waitForDataAndInit();
+}
 
 // Handle section collapse/expand
 function initCollapsibleSections() {
@@ -327,8 +344,6 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem('darkmode', darkModeCheckbox.checked ? 'true' : 'false');
         handleDarkModeToggle();
     });
-    // When the rules toggle changes, update the label immediately then perform the switch (which reloads)
-
 
     // Toggle dark mode classes on the page
     function handleDarkModeToggle() {
