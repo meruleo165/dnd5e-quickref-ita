@@ -40,7 +40,7 @@ data_reaction = [
         title: "Identifica un incantesimo*",
         optional: "Optional rule",
         icon: "magic-swirl",
-        subtitle: "Identifica un incantesimo che viene lanciato",
+        subtitle: "Mentre viene lanciato",
         description: "Usa la tua reazione e una prova di Intelligenza (Arcano) per identificare un incantesimo mentre viene lanciato.",
         reference: "XGE, pg. 85.",
         bullets: [
