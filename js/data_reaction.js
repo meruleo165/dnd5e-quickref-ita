@@ -39,7 +39,7 @@ data_reaction = [
     {
         title: "Identifica un incantesimo*",
         optional: "Optional rule",
-        icon: "magic-swirl",
+        icon: "eyeball",
         subtitle: "Mentre viene lanciato",
         description: "Usa la tua reazione e una prova di Intelligenza (Arcano) per identificare un incantesimo mentre viene lanciato.",
         reference: "XGE, pg. 85.",
@@ -68,7 +68,7 @@ data_reaction = [
     {
         title: "Parata**",
         optional: "Homebrew rule",
-        icon: "grab",
+        icon: "shield",
         subtitle: "Difenditi da un attacco in mischia",
         description: "Come reazione quando si viene colpiti da un attacco in mischia, si aggiunge un bonus alla CA che potrebbe far sì che l'attacco vada a vuoto.",
         reference: "Adattato da MM, pgs. 347, 349.",
@@ -83,7 +83,7 @@ data_reaction = [
     {
         title: "Mettersi al riparo**",
         optional: "Homebrew rule",
-        icon: "grab",
+        icon: "falling",
         subtitle: "Evita un effetto ad area",
         description: "Cadi a terra prono per ottenere vantaggio su un tiro salvezza su Destrezza.",
         reference: "",
