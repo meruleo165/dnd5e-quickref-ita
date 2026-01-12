@@ -210,6 +210,21 @@ data_condition = [
             "Queste regole aggiungono un tocco di orrore e profondità psicologica, creando conseguenze che vanno oltre il danno fisico. Il DM può usare le tabelle del DMG per aggiungere un tocco di originalità agli incontri con gli orrori cosmici."
         ]
     },
+	{
+        title: "Sanguinamento**",
+        optional: "Homebrew rule",
+        icon: "coma",
+        subtitle: "Subisci danni nel tempo",
+        description: "Subisci danni persistenti ad ogni turno fino a che la ferita non viene trattata.",
+        reference: "",
+        bullets: [
+            "Questa regola aggiunge un effetto di danni nel tempo, spesso innescato da colpi critici con armi taglienti o perforanti. Rende il combattimento più pericoloso e sottolinea la necessità di cure o pronto soccorso in combattimento. Una creatura sanguinante subisce danni all'inizio del suo turno, ma la condizione può essere interrotta in diversi modi:",
+            "Una creatura sanguinante subisce in genere 1d4 danni necrotici o taglienti all'inizio di ogni suo turno. Il dado di danno può aumentare per ferite più gravi.",
+            "Qualsiasi quantità di guarigione magica che ripristina i punti ferita pone fine alla condizione.",
+            "Una creatura può usare la sua azione per effettuare una prova di Saggezza (Medicina) (ad esempio, CD 12) per tamponare la ferita, terminando la condizione in caso di successo.",
+            "Questo aggiunge un consumo di risorse agli incontri, poiché il gruppo deve spendere azioni o incantesimi per gestire i danni in corso, creando un senso di urgenza."
+        ]
+    },
     {
         title: "Morte",
         optional: "Standard rule",
