@@ -195,6 +195,21 @@ data_condition = [
             "Fallisci automaticamente i tiri salvezza su Forza e Destrezza.",
         ]
     },
+	 {
+        title: "Follia*",
+        optional: "Optional rule",
+        icon: "coma",
+        subtitle: "La tua mente è danneggiata",
+        description: "Ricevi un trauma mentale con effetti psicologici a breve, lungo termine e indefiniti.",
+        reference: "DMG, pgs. 258-260.",
+        bullets: [
+            "Un personaggio potrebbe acquisire una forma di follia a seguito di eventi traumatici, come vedere un'aberrazione proveniente dal Reame Remoto o leggere conoscenze proibite. La follia è classificata in base alla sua durata, con ogni livello che comporta cambiamenti più profondi:",
+            "Follia temporanea (dura 1d10 minuti): effetti come essere Stordito, Paralizzato dalla paura, o parlare incoerentemente.",
+            "Follia duratura (dura 1d10 x 10 ore): effetti come sviluppare una fobia, avere le allucinazioni, o soffrire di estrema paranoia.",
+            "Follia indeterminata: il personaggio ottiene un nuovo difetto, curabile solo con potenti magie come Ristorare Superiore.",
+            "Queste regole aggiungono un tocco di orrore e profondità psicologica, creando conseguenze che vanno oltre il danno fisico. Il DM può usare le tabelle del DMG per aggiungere un tocco di originalità agli incontri con gli orrori cosmici."
+        ]
+    },
     {
         title: "Morte",
         optional: "Standard rule",
