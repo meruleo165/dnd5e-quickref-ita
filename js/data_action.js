@@ -307,7 +307,7 @@ data_action = [
         title: "Marcare*",
         optional: "Optional rule",
         icon: "cross-mark",
-        subtitle: "Conferisce vantaggio sugli attacchi di opportunità",
+        subtitle: "Vantaggio sugli attacchi di opportunità",
         description: "Questa opzione rende più facile per i combattenti in mischia infastidirsi a vicenda con attacchi di opportunità.",
         reference: "DMG, page 271.",
         bullets: [
@@ -320,7 +320,7 @@ data_action = [
         ]
     },
     {
-        title: "Arrampicati su una creatura più grossa*",
+        title: "Arrampicati su una creatura*",
         optional: "Optional rule",
         icon: "mountain-climbing",
         subtitle: "Arrampica una creatura più grossa",
