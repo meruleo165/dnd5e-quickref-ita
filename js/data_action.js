@@ -151,8 +151,7 @@ data_action = [
             "(Regola Opzionale):",
             "Utilizzare un'azione completa su sé stessi ripristina la quantità massima possibile di punti ferita dati dalla pozione."
             "Per somministrare una pozione devi trovarti entro 1,5m dalla creatura bersaglio.",
-            "Questa azione viene spesso utilizzata per riportare in vita un alleato morente (0 PV) e farlo entrare in combattimento.",
-            
+            "Questa azione viene spesso utilizzata per riportare in vita un alleato morente (0 PV) e farlo entrare in combattimento."            
         ]
     },
     {
@@ -317,7 +316,7 @@ data_action = [
             "Fino alla fine del turno successivo dell'attaccante, qualsiasi attacco di opportunità che effettua contro il bersaglio marchiato ottiene vantaggio.",
             "'attacco di opportunità non consuma la reazione dell'attaccante.",
             "L'attaccante non può effettuare l'attacco se qualcosa, come la condizione Incapacitato o l'incantesimo <i>stretta folgorante</i>, gli impedisce di effettuare reazioni.",
-            "L'attaccante è limitato a un attacco di opportunità per turno.",
+            "L'attaccante è limitato a un attacco di opportunità per turno."
         ]
     },
     {
@@ -331,7 +330,7 @@ data_action = [
             "(Regola Opzionale):",
             "Dopo aver effettuato le eventuali prove di caratteristica necessarie per portarsi in posizione e salire sulla creatura più grande, la creatura più piccola usa la sua azione per effettuare una prova di Forza (Atletica) o Destrezza (Acrobazia) contrapposta alla prova di Destrezza (Acrobazia) del bersaglio.",
             "Se vince la contesa, la creatura più piccola si muove con successo nello spazio della creatura bersaglio e si aggrappa al suo corpo.",
-            "La creatura più piccola si muove con il bersaglio e ha vantaggio ai tiri per colpire contro di esso.",
+            "La creatura più piccola si muove con il bersaglio e ha vantaggio ai tiri per colpire contro di esso."
         ]
     },
      {
@@ -346,7 +345,7 @@ data_action = [
             "I colpi mirati introducono complessità tattica, consentendo ai giocatori di mirare a effetti che vanno oltre il semplice danno. I dettagli delle penalità e degli effetti sono determinati dal DM, ma generalmente comportano una penalità alla precisione per un effetto debilitante.",
             "L'attaccante dichiara il suo bersaglio (ad esempio, un braccio, una gamba o la testa) e subisce una penalità al tiro per colpire, in genere -5.",
             "In caso di successo, l'attacco può impartire un effetto speciale, come costringere il bersaglio a lasciare cadere un oggetto (braccio), ridurne la velocità (gamba) o conferirgli svantaggio al suo prossimo attacco (testa).",
-            "Questo sistema offre più opzioni tattiche, consentendo ai personaggi di neutralizzare strategicamente gli avversari anziché limitarsi a ridurre i punti ferita. Può rallentare il combattimento.",
+            "Questo sistema offre più opzioni tattiche, consentendo ai personaggi di neutralizzare strategicamente gli avversari anziché limitarsi a ridurre i punti ferita. Può rallentare il combattimento."
         ]
     },
     {
@@ -361,7 +360,7 @@ data_action = [
             "Questa regola popolare fa sì che i personaggi marziali si sentano più potenti quando affrontano orde di nemici deboli, consentendo a un tiro di danno massiccio di avere un impatto significativo anche se il bersaglio iniziale era quasi morto. Permette di reindirizzare i danni in eccesso causati da un colpo fatale.",
             "Quando il tuo attacco in mischia riduce una creatura a 0 punti ferita, puoi applicare qualsiasi danno in eccesso a un'altra creatura entro 1,5m dal bersaglio originale e entro la tua portata.",
             "Questo in genere richiede un nuovo tiro di attacco contro la seconda creatura.",
-            "Questo effetto è solitamente limitato a un bersaglio aggiuntivo per turno per mantenere l'equilibrio del gioco.",
+            "Questo effetto è solitamente limitato a un bersaglio aggiuntivo per turno per mantenere l'equilibrio del gioco."
         ]
     },
     {
@@ -377,7 +376,7 @@ data_action = [
             "Come azione, scegli una creatura che puoi vedere entro 9m.",
             "Effettua una prova di Carisma (Intimidazione) contrapposta alla prova di Saggezza (Intuizione) del bersaglio.",
             "Se vinci la sfida, il bersaglio è spaventato da te fino alla fine del tuo prossimo turno.",
-            "Il successo impone la condizione Spaventato, dando al bersaglio svantaggio ai tiri per colpire e alle prove di caratteristica mentre può vederti, e impedendogli di avvicinarsi. Questa può essere una potente opzione di controllo, soprattutto per le classi che non hanno accesso agli effetti di paura magica.",
+            "Il successo impone la condizione Spaventato, dando al bersaglio svantaggio ai tiri per colpire e alle prove di caratteristica mentre può vederti, e impedendogli di avvicinarsi. Questa può essere una potente opzione di controllo, soprattutto per le classi che non hanno accesso agli effetti di paura magica."
         ]
     }
 ]
