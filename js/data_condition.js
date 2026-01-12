@@ -1,4 +1,4 @@
-var data_condition = [
+data_condition = [
     {
         title: "Accecato",
         optional: "Standard rule",
