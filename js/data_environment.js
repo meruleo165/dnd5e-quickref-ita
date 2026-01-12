@@ -151,33 +151,37 @@ data_environment_hazard = [
         reference: "PHB, pg. 183.; XGE, pg. 77.",
         bullets: [
             "Cadere è un rischio significativo, con un danno massimo di 20d6, che rappresenta la velocità terminale. Le regole per la caduta includono anche specifiche per le creature volanti e la velocità di discesa.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Velocità di caduta (XGE): Una creatura cade istantaneamente per 150m. Se alla fine del suo turno sta ancora cadendo, scende di altri 150m.",
+            "Creature volanti: Se una creatura volante viene gettata prona, la sua velocità scende a 0 o è altrimenti privata della capacità di muoversi, cade a meno che non possa librarsi o venga salvata dalla magia.",
+            "La regola della caduta istantanea di 150m significa che anche con un incantesimo come <i>Caduta Morbida</i>, che ha un tempo di lancio di 1 reazione, una creatura cadrà per una distanza significativa prima che l'incantesimo possa essere lanciato."
         ]
     },
     {
-        title: "Three-quarters cover",
+        title: "Soffocamento",
         optional: "Standard rule",
-        icon: "cracked-shield",
-        subtitle: "Portcullis, arrow slit",
-        description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
-        reference: "PHB, pg. 196.",
+        icon: "drowning",
+        subtitle: "Trattenere il respiro",
+        description: "Privo d'aria, puoi sopravvivere per un tempo limitato prima di scendere a 0 punti ferita e iniziare a morire.",
+        reference: "PHB, pg. 183.",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Una creatura può trattenere il respiro per un numero di minuti pari a 1 + il suo modificatore di Costituzione (minimo 30 secondi). Quando rimane senza fiato, entra in un conto alla rovescia mortale:",
+            "Dopo essere rimasto senza fiato, puoi sopravvivere per un numero di round pari al tuo modificatore di Costituzione (minimo 1 round).",
+            "All'inizio del suo turno successivo, la creatura scende a 0 punti ferita e inizia a morire.",
+            "Una creatura che soffoca non può recuperare punti ferita finché non viene stabilizzata o non può respirare di nuovo."  
         ]
     },
     {
-        title: "Full cover",
+        title: "Combattere sott'acqua",
         optional: "Standard rule",
         icon: "shield",
-        subtitle: "Completely concealed",
-        description: "A target has total cover if it is completely concealed by an obstacle",
-        reference: "PHB, pg. 196.",
+        subtitle: "Combattere in acqua",
+        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
+        reference: "PHB, pg. 198.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
+            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
+            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
+            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
         ]
     }
 ]
