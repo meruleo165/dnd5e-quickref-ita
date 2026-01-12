@@ -1,4 +1,4 @@
-var data_reaction = [
+data_reaction = [
     {
         title: "Attacco di opportunità",
         optional: "Standard rule",
