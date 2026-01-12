@@ -44,7 +44,7 @@ data_reaction = [
         description: "Usa la tua reazione e una prova di Intelligenza (Arcano) per identificare un incantesimo mentre viene lanciato.",
         reference: "XGE, pg. 85.",
         bullets: [
-            "(Regola Opzionale)"
+            "(Regola Opzionale)",
             "Innesco: Una creatura che puoi vedere lancia un incantesimo.",
             "Reazione: Effettua una prova di Intelligenza (Arcano). La CD è pari a 15 + il livello dell'incantesimo.",
             "In caso di successo, identifichi l'incantesimo. Questa prova non rivela il livello dello slot incantesimo utilizzato per lanciarlo.",
