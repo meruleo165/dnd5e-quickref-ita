@@ -18,7 +18,7 @@
         // This logic is inlined in the HTML to ensure it runs even if the main JS file is cached.
         (function() {
             // Increment this version number when you deploy breaking changes or significant updates.
-            const CURRENT_APP_VERSION = '2.1.4'; // Updated version
+            const CURRENT_APP_VERSION = '2.1.5'; // Updated version
             window.dndQuickRefAppVersion = CURRENT_APP_VERSION; // Expose version for other scripts
             const VERSION_KEY = 'appVersion';
             const storedVersion = localStorage.getItem(VERSION_KEY);
@@ -181,6 +181,28 @@
                     <div class="section-row" id="environment-outdoor"></div>
                 </div>
             </div>
+
+            <!-- Outdoor section -->
+            <div id="section-action" class="section-container">
+                <div class="section-title">
+                    <div class="section-title-content">
+                        <div class="section-title-text">
+                            Azione
+                            <span class="chevron"></span>
+                            <button class="collapse-all-btn">Chiudi gli elementi</button>
+                        </div>
+                        <span class="float-right">1/turno</span>
+                    </div>
+                </div>
+                <div class="section-content">
+                    <div class="section-row section-subtitle text fontsize">
+                        Puoi anche interagire, senza spendere alcuna azione, 
+                    con un oggetto o una caratteristica dell'ambiente.
+                    </div>
+                    <div class="section-row" id="basic-actions">
+                    </div>
+                </div>
+            </div>
             
             <!-- Settings section -->
             <div id="section-settings" class="section-container">
@@ -246,6 +268,7 @@
     <script src="js/data_reaction.js"></script>
     <script src="js/data_condition.js"></script>
     <script src="js/data_environment.js"></script>
+    <script src="js/data_outdoor.js"></script>
 
     <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script> <script>
         // Cookie notice logic: shows the notice if not accepted, hides it on accept
