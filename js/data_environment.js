@@ -266,9 +266,9 @@ data_environment_hazard = [
         bullets: [
             "(Regola Opzionale):",
             "Quando una creatura e almeno uno dei suoi alleati sono adiacenti a un nemico e su lati o angoli opposti dello spazio nemico, lo fiancheggiano e ognuno di loro ottiene vantaggio sui tiri per colpire in mischia contro di esso.",
+            "Una creatura non può fiancheggiare un nemico che non è in grado di vedere e non può fiancheggiare nessuno finché è incapacitata.",
             "Una creatura non può essere fiancheggiata se è informe o ha una caratteristica che la rende inattaccabile.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
+            "Una variante comune conferisce un bonus di +2 ai tiri per colpire invece del vantaggio per ridurre la frequenza del vantaggio."
         ]
     },
     {
