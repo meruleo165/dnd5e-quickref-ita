@@ -335,6 +335,20 @@ data_environment_hazard = [
 ]
 data_environment_outdoor = [
     {
+        title: "Riposo",
+        optional: "Standard rule",
+        icon: "night-sleep",
+        subtitle: "Tempo di riposare",
+        description: "Gli avventurieri possono concedersi dei riposi brevi nell'arco della giornata e un riposo lungo alla conclusione della giornata.",
+        reference: "PHB, pg. 186.",
+        bullets: [
+            "",
+            "<b>Riposo Breve</b>: dura almeno 1 ora, un personaggio può spendere uno o più Dadi Vita alla fine di un riposo breve
+            "Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
+            "Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
+        ]
+    },
+    {
         title: "Varianti al riposo*",
         optional: "Optional rule",
         icon: "night-sleep",
@@ -344,8 +358,8 @@ data_environment_outdoor = [
         bullets: [
             "(Regola Opzionale):",
             "<b>Riposo Breve</b>: dura almeno 1 ora, un personaggio può spendere uno o più Dadi Vita alla fine di un riposo breve
-            "Variante Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
-            "Variante Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
+            "Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
+            "Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
         ]
     },
 ]
