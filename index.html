@@ -265,22 +265,7 @@
     <script src="js/data_environment.js"></script>
     <script src="js/data_outdoor.js"></script>
 
-    <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script> <script>
-        // Cookie notice logic: shows the notice if not accepted, hides it on accept
-        document.addEventListener('DOMContentLoaded', function () {
-            var cookieNotice = document.getElementById('cookie-notice');
-            var acceptButton = document.getElementById('accept-cookies');
-
-            if (!localStorage.getItem('cookiesAccepted')) {
-                cookieNotice.style.display = 'block';
-            }
-
-            acceptButton.addEventListener('click', function () {
-                localStorage.setItem('cookiesAccepted', 'true');
-                cookieNotice.style.display = 'none';
-            });
-        });
-    </script>
+    <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
 
 </body>
 
