@@ -255,7 +255,11 @@
             </div>
         </div>
     </div>
-    
+    <!-- Cookie notice: informs users about cookie usage and provides an accept button -->
+    <div id="cookie-notice" class="cookie-notice">
+        <p>This website uses cookies to ensure you get the best experience on our website.</p>
+        <button id="accept-cookies">Accept</button>
+    </div>
     <!-- Main quickref JavaScript logic: handles dynamic content, toggles, and filtering -->
     <script src="js/data_movement.js"></script>
     <script src="js/data_action.js"></script>
@@ -265,7 +269,22 @@
     <script src="js/data_environment.js"></script>
     <script src="js/data_outdoor.js"></script>
 
-    <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script> <script>
+        // Cookie notice logic: shows the notice if not accepted, hides it on accept
+        document.addEventListener('DOMContentLoaded', function () {
+            var cookieNotice = document.getElementById('cookie-notice');
+            var acceptButton = document.getElementById('accept-cookies');
+
+            if (!localStorage.getItem('cookiesAccepted')) {
+                cookieNotice.style.display = 'block';
+            }
+
+            acceptButton.addEventListener('click', function () {
+                localStorage.setItem('cookiesAccepted', 'true');
+                cookieNotice.style.display = 'none';
+            });
+        });
+    </script>
 
 </body>
 
