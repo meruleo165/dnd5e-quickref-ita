@@ -268,67 +268,53 @@ data_environment_hazard = [
             "Quando una creatura e almeno uno dei suoi alleati sono adiacenti a un nemico e su lati o angoli opposti dello spazio nemico, lo fiancheggiano e ognuno di loro ottiene vantaggio sui tiri per colpire in mischia contro di esso.",
             "Una creatura non può fiancheggiare un nemico che non è in grado di vedere e non può fiancheggiare nessuno finché è incapacitata.",
             "Una creatura non può essere fiancheggiata se è informe o ha una caratteristica che la rende inattaccabile.",
-            "Una variante comune conferisce un bonus di +2 ai tiri per colpire invece del vantaggio per ridurre la frequenza del vantaggio."
+            "Una variante comune conferisce un bonus di +2 ai tiri per colpire invece del vantaggio per ridurre la frequenza del vantaggio.",
+            "Il vantaggio diventa significativamente più comune sia per i giocatori che per i mostri."
         ]
     },
     {
         title: "Lesioni persistenti*",
         optional: "Optional rule",
         icon: "sword-break",
-        subtitle: "Combattere in acqua",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
+        subtitle: "Ferite di battaglia persistenti",
+        description: "Quando subisce un colpo critico o scende a 0 PV, una creatura potrebbe subire una lesione persistente.",
+        reference: "DMG, pgs. 272-273.",
         bullets: [
             "(Regola Opzionale):",
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
+            "Questa regola è adatta alle campagne che desiderano un'atmosfera più cruda e pericolosa, in cui le cicatrici della battaglia siano più di semplici punti ferita persi.",
+            "Per determinare la natura della lesione si tira sulla tabella Lesioni Persistenti."
+            "Esempi includono: Perdita di un Occhio (svantaggio sugli attacchi a distanza e sulla Percezione basata sulla vista), Zoppicare (velocità ridotta di 1,5m) o una Cicatrice Orribile (svantaggio su Persuasione, vantaggio su Intimidire).",
+            "Queste ferite spesso richiedono magie potenti come Guarigione o Rigenerazione o tempi di recupero significativi per guarire."
         ]
     },
     {
         title: "Danni massicci*",
         optional: "Optional rule",
         icon: "internal-injury",
-        subtitle: "Combattere in acqua",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
+        subtitle: "Rischio di Trauma",
+        description: "Quando una creatura subisce danni ingenti, deve effettuare un tiro salvezza o subire un effetto casuale.",
+        reference: "DMG, pg. 273.",
         bullets: [
             "(Regola Opzionale):",
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
+            "Quando una creatura subisce danni pari o superiori alla metà dei suoi PF massimi da una singola fonte, deve superare un tiro salvezza su Costituzione con CD 15.",
+            "In caso di fallimento, la creatura subisce un effetto casuale dalla tabella Traumi, come barcollare, scendere a 0 o rimanere stordita.",
+            "Un tiro salvezza fallito può avere un impatto devastante, potenzialmente stordendo un personaggio o riducendone la velocità a zero in un momento critico."
         ]
     },
     {
         title: "Morale*",
         optional: "Optional rule",
         icon: "terror",
-        subtitle: "Combattere in acqua",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
+        subtitle: "Il nemico fuggirà o si arrenderà?",
+        description: "Alcuni combattenti potrebbero fuggire via o arrendersi quando le sorti dello scontro volgono al peggio.",
+        reference: "DMG, pg. 273.",
         bullets: [
             "(Regola Opzionale):",
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
-        ]
-    },
-    {
-        title: "Varianti al riposo*",
-        optional: "Optional rule",
-        icon: "night-sleep",
-        subtitle: "Combattere in acqua",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
-        bullets: [
-            "(Regola Opzionale):",
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
+            "Il DM può richiedere una prova di morale quando si verificano determinati eventi:",
+            "Inneschi di una prova di morale: il gruppo nemico viene sorpreso, ridotto a metà del suo numero o il suo leader viene sconfitto.",
+            "Il DM effettua un tiro salvezza su Saggezza con CD 10 per la creatura o il capo del gruppo. In caso di fallimento, il gruppo si disperde.",
+            "La CD potrebbe essere modificata dalla situazione (ad esempio, più alta se i PG sono terrificanti, più bassa se i mostri stanno difendendo la loro tana).",
+            "Questo può portare a esiti più dinamici, come inseguimenti, situazioni con ostaggi o nemici che tornano più tardi con rinforzi."
         ]
     },
     {
@@ -344,6 +330,22 @@ data_environment_hazard = [
             "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
             "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
             "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
+        ]
+    },
+]
+data_environment_outdoor = [
+    {
+        title: "Varianti al riposo*",
+        optional: "Optional rule",
+        icon: "night-sleep",
+        subtitle: "Cambia il ritmo di gioco",
+        description: "Modifica la durata dei riposi brevi e lunghi, alterando radicalmente il ritmo di una campagna.",
+        reference: "PHB, pg. 186; DMG, pg. 267.",
+        bullets: [
+            "(Regola Opzionale):",
+            "<b>Riposo Breve</b>: dura almeno 1 ora, un personaggio può spendere uno o più Dadi Vita alla fine di un riposo breve
+            "Variante Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
+            "Variante Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
         ]
     },
 ]
