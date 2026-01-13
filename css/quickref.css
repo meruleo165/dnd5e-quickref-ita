@@ -345,6 +345,18 @@
 #section-environment .text {
     color: white;
 }
+#section-outdoor,
+#section-outdoor .item {
+    background-color: #8d893f;
+    color: white;
+    border-color: #8d893f;
+}
+#section-outdoor .item {
+    border-color: #8d893f;
+}
+#section-outdoor .text {
+    color: white;
+}
 #section-settings,
 #section-settings .section-title {
     background-color: darkblue;
@@ -733,6 +745,17 @@ input:checked+.slider:before {
     border-color: #2f4f4f;
 }
 .dark-mode-active #section-environment .text {
+    color: #fff;
+}
+.dark-mode-active #section-outdoor,
+.dark-mode-active #section-outdoor .item {
+    background-color: #6a672f;
+    border-color: #6a672f;
+}
+.dark-mode-active #section-outdoor .item {
+    border-color: #6a672f;
+}
+.dark-mode-active #section-outdoor .text {
     color: #fff;
 }
 .dark-mode-active #section-settings,
