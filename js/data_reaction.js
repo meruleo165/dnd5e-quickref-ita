@@ -83,7 +83,7 @@ data_reaction = [
     {
         title: "Mettersi al riparo**",
         optional: "Homebrew rule",
-        icon: "falling",
+        icon: "sprint",
         subtitle: "Evita un effetto ad area",
         description: "Cadi a terra prono per ottenere vantaggio su un tiro salvezza su Destrezza.",
         reference: "",
