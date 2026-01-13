@@ -234,14 +234,12 @@ data_environment_hazard = [
         optional: "Optional rule",
         icon: "mountain-climbing",
         subtitle: "Rischio di Indebolimento",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
+        description: "Quando esposta all'alta quota, una creatura non abituata può subire livelli di Indebolimento.",
+        reference: "DMG, pg. 110.",
         bullets: [
             "(Regola Opzionale):",
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
+            "Quando viaggia ad altitudini pari o superiori a 3.000 metri, una creatura deve effettuare un tiro salvezza su Costituzione con CD 10 per ogni ora di viaggio oltre le 8 ore giornaliere. In caso di fallimento, subisce un livello di Esaurimento.",
+            "Le creature acclimatate ad altitudini elevate superano automaticamente questo tiro salvezza. Una creatura può acclimatarsi trascorrendo 30 giorni a quell'altitudine."
         ]
     },
     {
