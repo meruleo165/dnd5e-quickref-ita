@@ -161,7 +161,7 @@ data_environment_hazard = [
         optional: "Standard rule",
         icon: "drowning",
         subtitle: "Trattenere il respiro",
-        description: "Privo d'aria, puoi sopravvivere per un tempo limitato prima di scendere a 0 punti ferita e iniziare a morire.",
+        description: "Priva d'aria, una creatura può sopravvivere per un tempo limitato prima di scendere a 0 punti ferita e iniziare a morire.",
         reference: "PHB, pg. 183.",
         bullets: [
             "Una creatura può trattenere il respiro per un numero di minuti pari a 1 + il suo modificatore di Costituzione (minimo 30 secondi). Quando rimane senza fiato, entra in un conto alla rovescia mortale:",
@@ -246,24 +246,23 @@ data_environment_hazard = [
         title: "Precipitazioni abbondanti*",
         optional: "Optional rule",
         icon: "raining",
-        subtitle: "Combattere in acqua",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
+        subtitle: "Influenza percezione e fuoco",
+        description: "Pioggia battente o nevicata oscurano leggermente l'area, impongono svantaggio alle prove di vista o udito e spengono le fiamme scoperte.",
+        reference: "DMG, pg. 110.",
         bullets: [
             "(Regola Opzionale):",
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
+            "La pioggia battente e la nevicata abbondante creano un'area leggermente oscurata, imponendo svantaggio alle prove di Saggezza (Percezione) basate sulla vista.",
+            "La pioggia battente impone svantaggio anche alle prove di Saggezza (Percezione) basate sull'udito.",
+            "La pioggia battente spegne le fiamme libere, come candele e torce."
         ]
     },
     {
         title: "Fiancheggiamento*",
         optional: "Optional rule",
         icon: "confrontation",
-        subtitle: "Combattere in acqua",
+        subtitle: "Vantaggio dato dal posizionamento",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
+        reference: "DMG, pgs. 251-252.",
         bullets: [
             "(Regola Opzionale):",
             "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
