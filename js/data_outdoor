@@ -12,5 +12,5 @@ data_outdoor = [
             "L'attacco interrompe il movimento della creatura che provoca, e si verifica subito prima che la creatura esca dalla tua portata.",
             "Le creature non provocano un attacco di opportunità quando si teletrasportano o quando qualcuno o qualcosa le sposta senza usare il loro movimento, azione o reazione."
         ]
-    },
+    }
   ]
