@@ -282,7 +282,7 @@ data_environment_hazard = [
         bullets: [
             "(Regola Opzionale):",
             "Questa regola è adatta alle campagne che desiderano un'atmosfera più cruda e pericolosa, in cui le cicatrici della battaglia siano più di semplici punti ferita persi.",
-            "Per determinare la natura della lesione si tira sulla tabella Lesioni Persistenti."
+            "Per determinare la natura della lesione si tira sulla tabella Lesioni Persistenti.",
             "Esempi includono: Perdita di un Occhio (svantaggio sugli attacchi a distanza e sulla Percezione basata sulla vista), Zoppicare (velocità ridotta di 1,5m) o una Cicatrice Orribile (svantaggio su Persuasione, vantaggio su Intimidire).",
             "Queste ferite spesso richiedono magie potenti come Guarigione o Rigenerazione o tempi di recupero significativi per guarire."
         ]
