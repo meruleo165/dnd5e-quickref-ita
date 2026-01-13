@@ -2,7 +2,7 @@ data_environment_obscurance = [
     {
         title: "Leggermente oscurato",
         optional: "Standard rule",
-        icon: "dustcloud",
+        icon: "dust-cloud",
         subtitle: "Svantaggio a Percezione",
         description: "Luce fioca, nebbia rarefatta, fogliame moderato.",
         reference: "PHB, pg. 183.",
@@ -217,7 +217,7 @@ data_environment_hazard = [
     {
         title: "Vento forte*",
         optional: "Optional rule",
-        icon: "wind-sock",
+        icon: "windsock",
         subtitle: "Influenza attacchi e percezione",
         description: "L'esposizione al vento forte impone penalità agli attacchi con armi a distanza e alle prove di Percezione.",
         reference: "DMG, pg. 110.",
@@ -337,7 +337,7 @@ data_environment_hazard = [
     {
         title: "Trappole*",
         optional: "Optional rule",
-        icon: "trip-wire",
+        icon: "tripwire",
         subtitle: "Combattere in acqua",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
         reference: "PHB, pg. 198.",
