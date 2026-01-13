@@ -261,12 +261,12 @@ data_environment_hazard = [
         optional: "Optional rule",
         icon: "confrontation",
         subtitle: "Vantaggio dato dal posizionamento",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
+        description: "Due alleati su lati opposti di un nemico ottengono vantaggio sui loro attacchi in mischia contro di esso.",
         reference: "DMG, pgs. 251-252.",
         bullets: [
             "(Regola Opzionale):",
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
+            "Quando una creatura e almeno uno dei suoi alleati sono adiacenti a un nemico e su lati o angoli opposti dello spazio nemico, lo fiancheggiano e ognuno di loro ottiene vantaggio sui tiri per colpire in mischia contro di esso.",
+            "Una creatura non può essere fiancheggiata se è informe o ha una caratteristica che la rende inattaccabile.",
             "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
             "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
         ]
