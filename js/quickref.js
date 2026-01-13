@@ -149,7 +149,7 @@ window.onload = function() {
             typeof data_environment_cover !== 'undefined' &&
             typeof data_environment_hazard !== 'undefined' &&
             typeof data_environment_outdoor !== 'undefined' &&
-            typeof data__outdoor !== 'undefined'
+            typeof data_outdoor !== 'undefined'
         ) {
             init();
         } else {
