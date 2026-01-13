@@ -321,101 +321,15 @@ data_environment_hazard = [
         title: "Trappole*",
         optional: "Optional rule",
         icon: "tripwire",
-        subtitle: "Combattere in acqua",
-        description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
-        reference: "PHB, pg. 198.",
+        subtitle: "Pericoli nascosti",
+        description: "Le trappole sono pericoli; possono essere meccaniche o magiche, e richiedono Percezione per essere individuate e abilità specifiche per essere disattivate.",
+        reference: "DMG, pgs. 120-121; XGE, pgs. 113-123.",
         bullets: [
             "(Regola Opzionale):",
-            "L'acqua ostacola il movimento e la forza dei colpi. Qualsiasi creatura completamente immersa che non abbia una velocità di nuoto naturale è soggetta alle seguenti regole:",
-            "Attacchi in Mischia: Una creatura senza una velocità di nuotare subisce svantaggio ai tiri per colpire con armi da mischia, a meno che l'arma non sia un giavellotto, una lancia, un pugnale, una spada corta o un tridente.",
-            "Attacchi a Distanza: Gli attacchi con armi a distanza mancano automaticamente i bersagli oltre la normale gittata dell'arma. Entro la normale gittata, il tiro per colpire subisce svantaggio a meno che non si tratti di una balestra, una rete o un'arma da lancio come un giavellotto (lancia, tridente, dardo).",
-            "Qualsiasi creatura o oggetto completamente immerso nell'acqua ha resistenza ai danni da fuoco."
+            "Individuare e disattivare le trappole richiede abilità e strumenti specifici.",
+            "Trovare una trappola di solito richiede una prova di Saggezza (Percezione). Disattivarla può richiedere una prova di Destrezza con attrezzi da scasso o una prova di Intelligenza (Investigare).",
+            "Le trappole magiche possono richiedere un incantesimo Dissolvi Magie riuscito per essere disattivate.",
+            "Trappole Complesse (XGE): Queste trappole agiscono su iniziativa, hanno azioni e reazioni proprie e possono cambiare nel tempo, rendendole più simili a un incontro di combattimento che a un singolo pericolo."
         ]
-    },
-]
-data_environment_outdoor = [
-    {
-        title: "Riposo",
-        optional: "Standard rule",
-        icon: "night-sleep",
-        subtitle: "Tempo di riposare",
-        description: "Gli avventurieri possono concedersi dei riposi brevi nell'arco della giornata e un riposo lungo alla conclusione della giornata.",
-        reference: "PHB, pg. 186.",
-        bullets: [
-            "",
-            "<b>Riposo Breve</b>: dura almeno 1 ora, un personaggio può spendere uno o più Dadi Vita alla fine di un riposo breve",
-            "Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
-            "Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
-        ]
-    },
-    {
-        title: "Varianti al riposo*",
-        optional: "Optional rule",
-        icon: "night-sleep",
-        subtitle: "Cambia il ritmo di gioco",
-        description: "Modifica la durata dei riposi brevi e lunghi, alterando radicalmente il ritmo di una campagna.",
-        reference: "PHB, pg. 186; DMG, pg. 267.",
-        bullets: [
-            "(Regola Opzionale):",
-            "<b>Riposo Breve</b>: dura almeno 1 ora, un personaggio può spendere uno o più Dadi Vita alla fine di un riposo breve",
-            "Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
-            "Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
-        ]
-    },
-    {
-        title: "Cibo e Acqua",
-        optional: "Optional rule",
-        icon: "night-sleep",
-        subtitle: "Cambia il ritmo di gioco",
-        description: "Modifica la durata dei riposi brevi e lunghi, alterando radicalmente il ritmo di una campagna.",
-        reference: "PHB, pg. 186; DMG, pg. 267.",
-        bullets: [
-            "(Regola Opzionale):",
-            "<b>Riposo Breve</b>: dura almeno 1 ora, un personaggio può spendere uno o più Dadi Vita alla fine di un riposo breve",
-            "Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
-            "Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
-        ]
-    },
-    {
-        title: "Fabbricare Oggetti",
-        optional: "Optional rule",
-        icon: "night-sleep",
-        subtitle: "Cambia il ritmo di gioco",
-        description: "Modifica la durata dei riposi brevi e lunghi, alterando radicalmente il ritmo di una campagna.",
-        reference: "PHB, pg. 186; XGE, pg. 131.",
-        bullets: [
-            "(Regola Opzionale):",
-            "<b>Riposo Breve</b>: dura almeno 1 ora, un personaggio può spendere uno o più Dadi Vita alla fine di un riposo breve",
-            "Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
-            "Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
-        ]
-    },
-    {
-        title: "Addestrarsi",
-        optional: "Optional rule",
-        icon: "night-sleep",
-        subtitle: "Cambia il ritmo di gioco",
-        description: "Modifica la durata dei riposi brevi e lunghi, alterando radicalmente il ritmo di una campagna.",
-        reference: "PHB, pg. 187; XGE, 126-127; DMG, pg. 267.",
-        bullets: [
-            "(Regola Opzionale):",
-            "<b>Riposo Breve</b>: dura almeno 1 ora, un personaggio può spendere uno o più Dadi Vita alla fine di un riposo breve",
-            "Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
-            "Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
-        ]
-    },
-    {
-        title: "Pergamene Magiche",
-        optional: "Optional rule",
-        icon: "night-sleep",
-        subtitle: "Cambia il ritmo di gioco",
-        description: "Modifica la durata dei riposi brevi e lunghi, alterando radicalmente il ritmo di una campagna.",
-        reference: "DMG, pg. 140, 191; XGE, pg. 133; TCE, pg.",
-        bullets: [
-            "(Regola Opzionale):",
-            "<b>Riposo Breve</b>: dura almeno 1 ora, un personaggio può spendere uno o più Dadi Vita alla fine di un riposo breve",
-            "Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
-            "Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
-        ]
-    },
+    }
 ]
