@@ -1,0 +1,16 @@
+data_outdoor = [
+    {
+        title: "Attacco di opportunità",
+        optional: "Standard rule",
+        icon: "crossed-swords",
+        subtitle: "Il nemico esce dalla tua portata",
+        description: "Raramente puoi muoverti sconsideratamente oltre i tuoi nemici senza metterti in pericolo.",
+        reference: "PHB, pg. 195.",
+        bullets: [
+            "Innesco: una creatura nemica che puoi vedere esce dalla tua portata.",
+            "Effettua un attacco in mischia contro la creatura che provoca.",
+            "L'attacco interrompe il movimento della creatura che provoca, e si verifica subito prima che la creatura esca dalla tua portata.",
+            "Le creature non provocano un attacco di opportunità quando si teletrasportano o quando qualcuno o qualcosa le sposta senza usare il loro movimento, azione o reazione."
+        ]
+    },
+  ]
