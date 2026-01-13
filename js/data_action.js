@@ -45,7 +45,7 @@ data_action = [
     {
         title: "Spingere lateralmente*",
         optional: "Optional rule",
-        icon: "hand",
+        icon: "push",
         subtitle: "Attacco speciale in mischia",
         description: "Spingi una creatura, sia per buttarla a terra o per spingerla lateralmente da te.",
         reference: "PHB, pg. 195. / DMG, page 272",
@@ -94,7 +94,7 @@ data_action = [
     {
         title: "Schivata",
         optional: "Standard rule",
-        icon: "aura",
+        icon: "dodging",
         subtitle: "Aumenta la difesa",
         description: "Ti concentri completamente per schivare gli attacchi.",
         reference: "PHB, pg. 192.",
@@ -118,7 +118,7 @@ data_action = [
     {
         title: "Aiuta",
         optional: "Standard rule",
-        icon: "telepathy",
+        icon: "all-for-one",
         subtitle: "Fornisce vantaggio ad un alleato",
         description: "Garantisce vantaggio ad un alleato in una prova.",
         reference: "PHB, pg. 192.",
@@ -143,7 +143,7 @@ data_action = [
     {
         title: "Usa Pozione*",
         optional: "Optional rule",
-        icon: "healthpotion",
+        icon: "health-potion",
         subtitle: "Bevi o usa una pozione su qualcuno",
         description: "Usa la tua azione per somministrare una pozione a una creatura adiacente consenziente o Priva di sensi.",
         reference: "DMG, pg. 140.",
@@ -157,7 +157,7 @@ data_action = [
     {
         title: "Negoziare*",
         optional: "Optional rule",
-        icon: "healthpotion",
+        icon: "conversation",
         subtitle: "Negozia durante il combattimento",
         description: "Usa la tua azione per calmare un combattimento e iniziare una conversazione di un minuto con una creatura ostile.",
         reference: "PHB, pgs. 185-186, DMG, pgs. 244-245., TCE, pg. 148.",
@@ -336,7 +336,7 @@ data_action = [
      {
         title: "Colpo Mirato**",
         optional: "Homebrew rule",
-        icon: "mountain-climbing",
+        icon: "archery-target",
         subtitle: "Colpisci un punto specifico del corpo",
         description: "Consente a un attaccante di subire una penalità al tiro per colpire per avere la possibilità di infliggere uno specifico effetto debilitante sul nemico.",
         reference: "",
@@ -351,7 +351,7 @@ data_action = [
     {
         title: "Fendere**",
         optional: "Homebrew rule",
-        icon: "mountain-climbing",
+        icon: "axe-swing",
         subtitle: "Riversi il danno in eccesso",
         description: "Permette ai danni in mischia in eccesso causati da un colpo mortale di essere trasferiti a un nemico adiacente.",
         reference: "Homebrew, adattatato da DMG, pg.272.",
@@ -366,7 +366,7 @@ data_action = [
     {
         title: "Presenza Intimidatoria**",
         optional: "Homebrew rule",
-        icon: "mountain-climbing",
+        icon: "sharp-smile",
         subtitle: "Spaventi il nemico senza un'arma",
         description: "Spaventa una creatura con una prova di Carisma contrapposta.",
         reference: "",
