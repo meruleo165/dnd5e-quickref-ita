@@ -132,7 +132,7 @@ data_condition = [
     {
         title: "Avvelenato",
         optional: "Standard rule",
-        icon: "deathcab",
+        icon: "poison-bottle",
         subtitle: "Sei avvelenato",
         description: "Sei avvelenato.",
         reference: "PHB, pg. 290.",
