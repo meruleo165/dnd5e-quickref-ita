@@ -125,6 +125,7 @@ function init() {
     fill_section(data_environment_cover, "environment-cover", "Environment");
     fill_section(data_environment_hazard, "environment-hazard", "Environment");
     fill_section(data_environment_outdoor, "environment-outdoor", "Environment");
+    fill_section(data_outdoor, "basic-outdoor", "Outdoor");
     
     // Set initial state for all "Collapse all" buttons
     document.querySelectorAll('.section-container').forEach(section => {
@@ -147,7 +148,8 @@ window.onload = function() {
             typeof data_environment_vision !== 'undefined' &&
             typeof data_environment_cover !== 'undefined' &&
             typeof data_environment_hazard !== 'undefined' &&
-            typeof data_environment_outdoor !== 'undefined'
+            typeof data_environment_outdoor !== 'undefined' &&
+            typeof data__outdoor !== 'undefined'
         ) {
             init();
         } else {
