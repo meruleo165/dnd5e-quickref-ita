@@ -68,7 +68,7 @@ data_reaction = [
     {
         title: "Parata**",
         optional: "Homebrew rule",
-        icon: "shield",
+        icon: "sword-clash",
         subtitle: "Difenditi da un attacco in mischia",
         description: "Come reazione quando si viene colpiti da un attacco in mischia, si aggiunge un bonus alla CA che potrebbe far sì che l'attacco vada a vuoto.",
         reference: "Adattato da MM, pgs. 347, 349.",
