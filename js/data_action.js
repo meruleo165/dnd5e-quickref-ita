@@ -314,7 +314,7 @@ data_action = [
             "(Regola Opzionale):",
             "Quando una creatura effettua un attacco in mischia, può anche marchiare il suo bersaglio.",
             "Fino alla fine del turno successivo dell'attaccante, qualsiasi attacco di opportunità che effettua contro il bersaglio marchiato ottiene vantaggio.",
-            "'attacco di opportunità non consuma la reazione dell'attaccante.",
+            "L'attacco di opportunità non consuma la reazione dell'attaccante.",
             "L'attaccante non può effettuare l'attacco se qualcosa, come la condizione Incapacitato o l'incantesimo <i>stretta folgorante</i>, gli impedisce di effettuare reazioni.",
             "L'attaccante è limitato a un attacco di opportunità per turno."
         ]
