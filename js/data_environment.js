@@ -66,7 +66,7 @@ data_environment_vision = [
     {
         title: "Vista cieca",
         optional: "Standard rule",
-        icon: "echoripples",
+        icon: "echo-ripples",
         subtitle: "Percepire senza vista",
         description: "Percepire l'ambiente circostante senza fare affidamento sulla vista, entro un certo raggio.",
         reference: "PHB, pg. 183.",
@@ -77,7 +77,7 @@ data_environment_vision = [
     {
         title: "Scurovisione",
         optional: "Standard rule",
-        icon: "semi-closed-eye",
+        icon: "night-vision",
         subtitle: "Visione limitata nell'oscurità",
         description: "Una creatura con Scurovisione può vedere meglio al buio o in condizioni di scarsa illuminazione, entro un certo raggio.",
         reference: "PHB, pg. 183.",
@@ -173,7 +173,7 @@ data_environment_hazard = [
     {
         title: "Combattere sott'acqua",
         optional: "Standard rule",
-        icon: "shield",
+        icon: "at-sea",
         subtitle: "Combattere in acqua",
         description: "Combattere mentre si è completamente immersi è difficile per le creature senza una velocità di nuoto, il che impone penalità alla maggior parte degli attacchi con armi.",
         reference: "PHB, pg. 198.",
@@ -201,7 +201,7 @@ data_environment_hazard = [
     {
         title: "Caldo estremo*",
         optional: "Optional rule",
-        icon: "sun",
+        icon: "thermometer-hot",
         subtitle: "Rischio di Indebolimento",
         description: "Quando esposta a caldo estremo, una creatura può subire livelli di Indebolimento.",
         reference: "DMG, pg. 110.",
