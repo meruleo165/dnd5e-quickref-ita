@@ -69,7 +69,7 @@ data_action = [
         icon: "push",
         subtitle: "Attacco speciale in mischia",
         description: "Spingi una creatura, sia per buttarla a terra o per spingerla lateralmente da te.",
-        reference: "PHB, pg. 195. / DMG, page 272",
+        reference: "PHB, pg. 195; DMG, pg. 272",
         bullets: [
             "(Regola opzionale):",
             "Con questa opzione, una creatura usa l'attacco speciale di spinta per costringere un bersaglio a spostarsi di lato.",
@@ -83,12 +83,17 @@ data_action = [
         icon: "magic-swirl",
         subtitle: "Tempo di lancio di 1 un'azione",
         description: "Lancia un incantesimo il cui tempo di lancio è di 1 azione.",
-        reference: "PHB, pg. 192.",
+        reference: "PHB, pgs. 110, 192, 201-205.",
         bullets: [
+            "Quando un personaggio lancia un incantesimo, <b>spende uno slot incantesimo</b> di livello pari o superiore a quell'incantesimo.",
+            "Quando un incantatore lancia un incantesimo usando uno <b>slot di livello superiore</b> rispetto a quello dell'incantesimo, l'incantesimo assume il livello superiore con <b>effetti più potenti</b> in occasione di quel lancio.",
             "Non puoi lanciare un incantesimo con l'<i>Azione</i> e uno diverso con l'<i>Azione Bonus</i>, eccetto se l'<i>Azione</i> è usata per lanciare un Trucchetto.",
+            "Un Trucchetto è un incantesimo che può essere lanciato a volontà, senza usare uno slot incantesimo e senza essere preparato in anticipo.",
             "L'obiettivo dell'incantesimo deve essere entro il raggio dello stesso. Per prendere di mira qualcosa non devi avere nessun ostacolo tra te e quel qualcosa, per questo non può essere dietro <i>Copertura Totale</i>.",
             "Gli incantesimi con componenti materiali non consumano il materiale a meno che non sia esplicitamente detto e, se non detto, puoi assumere che il costo è così basso che non va ad intaccare le scorte nella tua borsa dei componenti.",
-            "Alcuni incantesimi ti richiedono di mantenere la <i>Concentrazione</i> per poter mantenere la magia attiva. Se perdi la <i>Concentrazione</i> l'incantesimo finisce. Puoi perdere la <i>Concentrazione</i> per un incantesimo quando ne lanci un altro che richiede anch'esso <i>Concentrazione</i> o quando sei incapacitato. Ogni volta che ricevi del danno devi fare un tiro salvezza su Costituzione per mantenere la <i>Concentrazione</i>. La <i>Classe Difficoltà</i> del tiro è uguale a 10 o la metà del danno ricevuto, qualsiasi sia il numero più alto."
+            "Alcuni incantesimi ti richiedono di mantenere la <i>Concentrazione</i> per poter mantenere la magia attiva. Se perdi la <i>Concentrazione</i> l'incantesimo finisce. Puoi perdere la <i>Concentrazione</i> per un incantesimo quando ne lanci un altro che richiede anch'esso <i>Concentrazione</i> o quando sei incapacitato. Ogni volta che ricevi del danno devi fare un tiro salvezza su Costituzione per mantenere la <i>Concentrazione</i>. La CD del tiro è uguale a 10 o la metà del danno ricevuto, qualsiasi sia il numero più alto.",
+            "Lo stregone può utilizzare un'opzione di Metamagia per cambiare il tempo di lancio di un incantesimo pari a 1 azione in 1 azione bonus per quel lancio.",
+            "Alcuni personaggi e mostri sono dotati di capacità speciali che consentono loro di lanciare incantesimi senza usare slot incantesimo."
         ]
     },
     {
