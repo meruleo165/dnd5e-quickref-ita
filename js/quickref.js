@@ -130,7 +130,11 @@ function init() {
     document.querySelectorAll('.section-container').forEach(section => {
         updateCollapseAllButtonState(section);
     });
+    if (window.handleRulesToggle) {
+        window.handleRulesToggle();
+    }
 }
+
 
 // Wait for all data scripts to be loaded before initializing and filtering
 window.onload = function() {
