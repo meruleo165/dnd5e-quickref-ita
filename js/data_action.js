@@ -5,10 +5,16 @@ data_action = [
         icon: "crossed-swords",
         subtitle: "Esegui un attacco (mischia/distanza)",
         description: "Esegui un attacco in mischia o a distanza.",
-        reference: "PHB, pgs. 192,194-195.",
+        reference: "PHB, pgs. 192, 194-196.",
         bullets: [
+            "Se il totale del tiro per colpire + modificatori è pari o superiore alla Classe Armatura (CA) del bersaglio, l'attacco colpisce.",
+            "Quando un personaggio attacca con un'arma, <b>tira il dado o i dadi di danno + il modificatore di caratteristica + eventuali altri modificatori</b> per i danni totali inflitti contro il bersaglio o i bersagli.",
+            "Il modificatore di caratteristica usato per un <b>attacco in mischia è Forza</b>, mentre per un <b>attacco a distanza è Destrezza</b>.",
+            "Le armi dotate della proprietà <b>accurata</b> o da <b>lancio</b> violano questa regola.",
+            "Quando si ottiene un <b>20 al tiro per colpire</b>, il personaggio segna un colpo critico e l'attacco <b>colpisce a prescindere</b>, oltre a tirare i dadi due volte per i danni.",
+            "Quando si ottiene un <b>1 al tiro per colpire</b>, l'attacco <b>manca a prescindere</b> da qualsiasi modificatore o CA del bersaglio.",
             "Certe caratteristiche, come <i>Attacco Extra</i> del guerriero, permettono di eseguire più di un singolo attacco con questa azione. Ognuno di questi attacchi ha tiri separati e può colpire creature diverse. Puoi muoverti tra i vari attacchi.",
-            "Quando l'attacco viene eseguito con una arma ravvicinita leggera, un azione bonus puà essere usata per attaccare con l'arma nell'altra mano (vedi l'azione bonus <i>Attacco Secondario</i>).",
+            "Quando l'attacco viene eseguito con un'arma da mischia <b>leggera</b>, un azione bonus può essere usata per attaccare con l'arma nell'altra mano (vedi l'azione bonus <i>Attacco con l'altra mano</i>).",
             "Puoi sostituire uno dei tuoi attacchi in mischia con una <i>Presa</i> o una <i>Spinta</i>.",
             "Alcune condizioni danno vantaggio all'attacco: attacchi contro bersagli accecati, paralizzati, pietrificati, immobilizzati, storditi o incoscienti; attacchi in mischia contro bersagli proni; attacchi da parte di attaccanti invisibili o nascosti.",
             "Alcune condizioni danno svantaggio all'attacco: attacchi contro bersagli invisibili o nascosti; attacchi a distanza contro bersagli proni; attacchi da parte di attaccanti accecati, spaventati, avvelenati o immobilizzati."
