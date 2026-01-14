@@ -217,14 +217,20 @@ function initCollapsibleSections() {
         });
 
         if (collapseAllBtn) {
-            collapseAllBtn.addEventListener('click', (event) => {
-                event.stopPropagation(); // Prevent section from collapsing/expanding
-                const expandedItems = section.querySelectorAll('.item:not(:has(.item-content.collapsed)) .item-header');
-                expandedItems.forEach(header => {
-                    header.click();
-                });
-            });
-        }
+    collapseAllBtn.addEventListener('click', (event) => {
+        event.stopPropagation();
+
+        const items = section.querySelectorAll('.item:not(.item-hidden)');
+        items.forEach(item => {
+            const content = item.querySelector('.item-content');
+            const header = item.querySelector('.item-header');
+            if (content && !content.classList.contains('collapsed')) {
+                header.click();
+            }
+        });
+    });
+}
+
     });
 }
 
@@ -234,15 +240,19 @@ function updateCollapseAllButtonState(section) {
     const collapseAllBtn = section.querySelector('.collapse-all-btn');
     if (!collapseAllBtn) return;
 
-    // Find items that are both visible (not filtered out) and expanded
-    const expandedVisibleItems = section.querySelectorAll('.item:not(.item-hidden):not(:has(.item-content.collapsed))');
+    const items = section.querySelectorAll('.item:not(.item-hidden)');
+    let hasExpanded = false;
 
-    if (expandedVisibleItems.length === 0) {
-        collapseAllBtn.disabled = true;
-    } else {
-        collapseAllBtn.disabled = false;
-    }
+    items.forEach(item => {
+        const content = item.querySelector('.item-content');
+        if (content && !content.classList.contains('collapsed')) {
+            hasExpanded = true;
+        }
+    });
+
+    collapseAllBtn.disabled = !hasExpanded;
 }
+
 
 // DOMContentLoaded: Set up settings toggles, state, and filtering logic
 // This block runs as soon as the DOM is ready
