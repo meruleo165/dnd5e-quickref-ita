@@ -51,14 +51,31 @@ data_outdoor = [
     {
         title: "Addestrarsi",
         optional: "Standard rule",
-        icon: "target-dummy",
+        icon: "archive-register",
         subtitle: "Attività fuori servizio",
-        description: "Modifica la durata dei riposi brevi e lunghi, alterando radicalmente il ritmo di una campagna.",
-        reference: "PHB, pg. 187; XGE, 126-127; DMG, pg. 267.",
+        description: "Un personaggio può apprendere un nuovo linguaggio o addestrarsi nell'utilizzo di un tipo di strumenti.",
+        reference: "PHB, pg. 187;  DMG, pg. 131; XGE, 126-127.",
         bullets: [
-            "<b>Riposo Breve</b>: dura almeno 1 ora, un personaggio può spendere uno o più Dadi Vita alla fine di un riposo breve",
-            "Eroismo Epico: un riposo breve dura 5 minuti, mentre un riposo lungo dura 1 ora. Questa è la scelta ideale per partite ad alta azione e dal ritmo serrato, in cui le risorse si ripristinano rapidamente.",
-            "Realismo Crudo: un riposo breve dura 8 ore, mentre un riposo lungo dura 7 giorni. Questo rende gli incontri più pericolosi e incoraggia una gestione oculata delle risorse."
+            "Il personaggio deve trovare un istruttore disposto a insegnargli ciò che vuole apprendere (lingue, strumenti) al costo di 250 giorni e 1 mo al giorno.",
+            "Addestramento (XGE): Solitamente servono almeno dieci settimane lavorative, ma questo periodo è ridotto di un numero di settimane lavorative pari al modificatore di Intelligenza del personaggio. L'addestramento ha un costo di 25 mo per settimana lavorativa.",
+            "Non è possibile addestrarsi per ottenere una competenza ad armi o armature, poiché ottenibili solo dalla propria classe, talenti o multiclasse.",
+            "Dopo avere speso il denaro e impiegato l'ammontare di tempo richiesto, il personaggio apprende il linguaggio o ottiene la competenza nel nuovo strumento."
+        ]
+    },
+    {
+        title: "Addestrarsi**",
+        optional: "Homebrew rule",
+        icon: "archive-register",
+        subtitle: "Attività fuori servizio",
+        description: "Un personaggio può insegnare un nuovo linguaggio o spiegare l'utilizzo di un tipo di strumenti.",
+        reference: "",
+        bullets: [
+            "(Regola Homebrew):",
+            "Una volta al giorno, se sei competente in un linguaggio o in un tipo di strumenti, puoi iniziare a insegnare quella competenza a un compagno di avventure disponibile nell'arco di 30 minuti.",
+            "Sia l'insegnante che lo studente tirano 1d20. Prendi il risultato più basso + il modificatore di intelligenza dello studente e aggiungilo al <i>voto dello studente</i> per quella competenza.",
+            "Il dado dell'insegnante rappresenta quanto bene ha insegnato, e il dado dello studente rappresenta quanto bene ha imparato. Anche se lo studente ottiene un risultato alto, non può imparare più di quanto insegnato nella lezione.",
+            "Una volta che il <i>voto dello studente</i> raggiunge la CD appropriata, lo studente ottiene quella competenza.",
+            "Si raccomanda una CD di 250 per un nuovo linguaggio, e una CD di 150 per un tipo di strumenti."
         ]
     },
     {
