@@ -1,4 +1,17 @@
 data_condition = [
+	{
+        title: "Tipi di danno",
+        optional: "Standard rule",
+        icon: "shield-impact",
+        subtitle: "Resistenza e vulnerabilità",
+        description: "Alcune creature e oggetti sono difficilmente o facilmente danneggiabili con certi tipi di danno.",
+        reference: "PHB, pg. 197.",
+        bullets: [
+            "Se una creatura o un oggetto è dotato di <b>resistenza</b> a un tipo di danno, i danni di quel tipo contro di esso sono dimezzati.",
+            "Se una creatura o un oggetto è dotato di <b>vulnerabilità</b> a un tipo di danni, i danni di quel tipo contro di esso sono raddoppiati.",
+            "La resistenza e la vulnerabilità si applicano dopo tutti gli altri modificatori ai danni."
+        ]
+    },
     {
         title: "Accecato",
         optional: "Standard rule",
