@@ -102,7 +102,7 @@ data_condition = [
     {
         title: "Paralizzato",
         optional: "Standard rule",
-        icon: "lightning-trio",
+        icon: "bolt-spell-cast",
         subtitle: "Sei paralizzato",
         description: "Non puoi fare nulla.",
         reference: "PHB, pg. 291.",
