@@ -9,14 +9,14 @@ data_action = [
         bullets: [
             "Certe caratteristiche, come <i>Attacco Extra</i> del guerriero, permettono di eseguire più di un singolo attacco con questa azione. Ognuno di questi attacchi ha tiri separati e può colpire creature diverse. Puoi muoverti tra i vari attacchi.",
             "Quando l'attacco viene eseguito con una arma ravvicinita leggera, un azione bonus puà essere usata per attaccare con l'arma nell'altra mano (vedi l'azione bonus <i>Attacco Secondario</i>).",
-            "Puoi sostituire uno dei tuoi attacchi melee con una <i>Presa</i> o una <i>Spinta</i>.",
+            "Puoi sostituire uno dei tuoi attacchi in mischia con una <i>Presa</i> o una <i>Spinta</i>.",
             "Alcune condizioni danno vantaggio all'attacco: attacchi contro bersagli accecati, paralizzati, pietrificati, immobilizzati, storditi o incoscienti; attacchi in mischia contro bersagli proni; attacchi da parte di attaccanti invisibili o nascosti.",
             "Alcune condizioni danno svantaggio all'attacco: attacchi contro bersagli invisibili o nascosti; attacchi a distanza contro bersagli proni; attacchi da parte di attaccanti accecati, spaventati, avvelenati o immobilizzati."
         ]
     },
     {
         title: "Tramortire",
-        optional: "Optional rule",
+        optional: "Standard rule",
         icon: "sword-brandish",
         subtitle: "Colpo non letale",
         description: "Esegui un colpo non letale per neutralizzare un avversario.",
@@ -187,15 +187,17 @@ data_action = [
         ]
     },
     {
-        title: "Usa lo scudo",
+        title: "Scudo e Armatura",
         optional: "Standard rule",
-        icon: "round-shield",
-        subtitle: "Equipaggia o rimuovi lo scudo",
-         description: "Equipaggia o rimuovi lo scudo.",
+        icon: "layered-armor",
+        subtitle: "Equipaggia o rimuovi scudo/armatura",
+         description: "Equipaggia o rimuovi lo scudo/armatura.",
          reference: "PHB, pgs. 144-146.",
          bullets: [
             "Uno scudo utilizza sempre un'azione per essere equipaggiato o rimosso.",
-            "L'armatura richiede diversi minuti per essere equipaggiata o tolta."
+            "L'armatura richiede diversi minuti per essere equipaggiata o tolta.",
+            "L'armatura Leggera, Media e Pesante richiedono: 1min, 5min, 10min per essere <b>indossate</b>.",
+            "L'armatura Leggera, Media e Pesante richiedono: 1min, 1min, 5min per essere <b>rimosse</b>."
          ]
     },
     {
