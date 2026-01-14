@@ -15,6 +15,21 @@ data_action = [
         ]
     },
     {
+        title: "Tramortire",
+        optional: "Optional rule",
+        icon: "sword-brandish",
+        subtitle: "Colpo non letale",
+        description: "Esegui un colpo non letale per neutralizzare un avversario.",
+        reference: "PHB, pg. 198.",
+        bullets: [
+            "Quando un attaccante porta una creatura a 0 punti ferita con un <b>attacco in mischia</b>, può decidere di tramortirla.",
+            "L'attaccante può fare questa scelta nel momento in cui infligge i danni.",
+            "La creatura cade <i>Priva di sensi</i> ed è stabile.",
+            "Gli <b>attacchi a distanza</b> e la maggior parte degli incantesimi non possono <i>Tramortire</i> una creatura, poiché non soddisfano il requisito attacco in mischia.",
+            "Alcuni incantesimi specifici in mischia sono l'eccezione (come <i>Stretta Folgorante</i>."
+        ]
+    },
+    {
         title: "Presa",
         optional: "Standard rule",
         icon: "grab",
