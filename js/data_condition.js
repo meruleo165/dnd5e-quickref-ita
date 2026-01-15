@@ -65,7 +65,7 @@ data_condition = [
     {
         title: "Spaventato",
         optional: "Standard rule",
-        icon: "sharp-smile",
+        icon: "screaming",
         subtitle: "Sei spaventato",
         description: "Sei spaventato.",
         reference: "PHB, pg. 292.",
