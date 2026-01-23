@@ -257,5 +257,20 @@ data_condition = [
             "Puoi anche essere stabilizzato da un alleato che effettua l'azione Stabilizzare e supera una prova di Saggezza (Medicina) con CD 10.",
             "Una volta stabilizzato, recuperi 1 punto ferita dopo 1d4 ore."
         ]
+    },
+    {
+        title: "Morte alt.**",
+        optional: "Homebrew rule",
+        icon: "dead-head",
+        subtitle: "Stai morendo",
+        description: "Sei sceso a zero punti ferita e stai morendo.",
+        reference: "Homebrew adattato da Daggerheart; PHB, pg. 197; DGM, pgs. 272-273.",
+        bullets: [
+            "Se vieni ridotto a 0 punti ferita da danni che non ti uccidono, cadi Privo di sensi e stai morendo.",
+            "Puoi scegliere fra tre opzioni:",
+"Morte Standard: Effettui un tiro salvezza seguendo le regole di <i>Morte</i>.",
+            "Sacrificio Eroico: Quando i PG non possono più resistere, possono affrontare una "fiammata di gloria", un'azione finale epica prima che il personaggio esca di scena. La prossima azione ha successo automatico e risulta come critico.",
+"Lesioni persistenti (guardare <i>Effetti Ambientali</i>: Sostituire la morte immediata con menomazioni permanenti o lunghe convalescenze (es. perdita di un arto, cicatrici, o riduzione delle caratteristiche)."
+        ]
     }
 ]
