@@ -269,7 +269,7 @@ data_condition = [
             "Se vieni ridotto a 0 punti ferita da danni che non ti uccidono, cadi Privo di sensi e stai morendo.",
             "Puoi scegliere fra tre opzioni:",
             "Morte Standard: Effettui un tiro salvezza seguendo le regole di <i>Morte</i>.",
-            "Sacrificio Eroico: Quando i PG non possono più resistere, possono affrontare una "fiammata di gloria", un'azione finale epica prima che il personaggio esca di scena. La prossima azione ha successo automatico e risulta come critico.",
+            "Sacrificio Eroico: Quando i PG non possono più resistere, possono eseguire un'azione finale epica prima che il personaggio esca di scena. La prossima azione ha successo automatico e risulta come critico.",
             "Lesioni persistenti (guardare <i>Effetti Ambientali</i>: Sostituire la morte immediata con menomazioni permanenti o lunghe convalescenze (es. perdita di un arto, cicatrici, o riduzione delle caratteristiche)."
         ]
     }
